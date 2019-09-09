@@ -9,12 +9,12 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform, Full Profile.
 
 
-=== Summary
+=== WildFly Full Profile, Certification Summary
 ----
 Date:  September 8, 2019
 Product Name:  WildFly
 Product Version: 17.0.1.Final
-URL to product download page: wildfly.org/downloads
+URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 8 Full and Web Profile Specifications
 Java SE provider and Version tested with:  Oracle JDK 1.8.0_191
