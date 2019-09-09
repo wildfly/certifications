@@ -47,66 +47,79 @@ Test name: ejb32/lite
 [javatest.batch] Number of Tests Passed      = 456
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: servlet
 [javatest.batch] Completed running 1643 tests.
 [javatest.batch] Number of Tests Passed      = 1643
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jta
 [javatest.batch] Completed running 154 tests.
 [javatest.batch] Number of Tests Passed      = 154
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: websocket
 [javatest.batch] Completed running 745 tests.
 [javatest.batch] Number of Tests Passed      = 745
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jpa/core
 [javatest.batch] Completed running 1841 tests.
 [javatest.batch] Number of Tests Passed      = 1841
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jsp
 [javatest.batch] Completed running 721 tests.
 [javatest.batch] Number of Tests Passed      = 721
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jaxrs
 [javatest.batch] Completed running 976 tests.
 [javatest.batch] Number of Tests Passed      = 976
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jsonp
 [javatest.batch] Completed running 372 tests.
 [javatest.batch] Number of Tests Passed      = 372
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: el
 [javatest.batch] Completed running 667 tests.
 [javatest.batch] Number of Tests Passed      = 667
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: ejb30/lite
 [javatest.batch] Completed running 1873 tests.
 [javatest.batch] Number of Tests Passed      = 1873
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jstl
 [javatest.batch] Completed running 541 tests.
 [javatest.batch] Number of Tests Passed      = 541
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: jpa/ee
 [javatest.batch] Completed running 38 tests.
 [javatest.batch] Number of Tests Passed      = 38
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: signaturetest/javaee
 [javatest.batch] Completed running 2 tests.
 [javatest.batch] Number of Tests Passed      = 2
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
+
 Test name: connector
 [javatest.batch] Completed running 264 tests.
 [javatest.batch] Number of Tests Passed      = 264
