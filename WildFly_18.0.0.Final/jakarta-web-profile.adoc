@@ -29,7 +29,7 @@ Specification Name, Version and download URL:
 https://jakarta.ee/specifications/platform/8 [Jakarta EE Platform, 8]
 
 TCK Version, digital SHA-256 fingerprint and download URL:
-http://download.eclipse.org/ee4j/jakartaee-tck/jakartaee8-eftl/staged-801/eclipse-jakartaeetck-8.0.1.zip[Jakarta EE Platform TCK 8.0.1, 3026f2b2fc7a2f1e802aed6cf1671d486dc90d1b03fd3519367577aa9f6545fa]
+https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee8-eftl/staged-801/eclipse-jakartaeetck-8.0.1.zip[Jakarta EE Platform TCK 8.0.1, 3026f2b2fc7a2f1e802aed6cf1671d486dc90d1b03fd3519367577aa9f6545fa]
 
 Public URL of TCK Results Summary: 
 https://github.com/wildfly/certifications/blob/EE8/WildFly_18.0.0.Final/jakarta-web-profile.adoc[WildFly 18.0.0.Final TCK results]
@@ -216,7 +216,7 @@ Standalone test results:
 Jakarta Dependency Injection 1.0 TCK
 
 Download URL & SHA-256:
-http://download.eclipse.org/ee4j/cdi/jakarta.inject-tck-1.0-bin.zip[jakarta.inject-tck-1.0-bin.zip,b679bac9b1057df894753892a880ba6ade530607dd811157106ed767aa26481f]
+https://download.eclipse.org/ee4j/cdi/jakarta.inject-tck-1.0-bin.zip[jakarta.inject-tck-1.0-bin.zip,b679bac9b1057df894753892a880ba6ade530607dd811157106ed767aa26481f]
 
 TCK result summary:
 ----
@@ -226,7 +226,7 @@ Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 sec
 Jakarta Contexts and Dependency Injection 2.0 TCK
 
 Download URL & SHA-256
-http://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[cdi-tck-2.0.6-dist.zip,75e969a7a3b3c77332154a2008309aad821a923d8684139242048a7640762808]
+https://download.eclipse.org/ee4j/cdi/cdi-tck-2.0.6-dist.zip[cdi-tck-2.0.6-dist.zip,75e969a7a3b3c77332154a2008309aad821a923d8684139242048a7640762808]
 
 TCK result summary:
 ----
