@@ -2,31 +2,28 @@
 :ext-relative: {outfilesuffix}
 :imagesdir: ../images/
 
-image:splash_wildflylogo_small.png[WildFly, align=center]
+image:splash_wildflylogo_small.png[WildFly, align="center"]
 
 [[introduction]]
 == Introduction
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform 8.
 
 
-=== Platform TCK Test results
-Test results:
-----
 === WildFly Web Profile, Certification Summary
 ----
-Date:  24-Sep-2019
+Date:  September 26, 2019
 Product Name:  WildFly
 Product Version: WildFly 18.0.0.Final
 URL to product download page: https://wildfly.org/downloads
 
-Product Description: An implementation of the Jakarta EE 8 Full and Web Profile Specifications
+Product Description: An implementation of the Jakarta EE 8 Full Platform and Web Profile Specifications
 Java SE provider and Version tested with:  Oracle JDK 1.8.0_191
 OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
 Database version:   Apache Derby Network Server 10.14.2.0
 Database JDBC Driver and version:  Apache Derby 10.14.2.0
 ----
 Specification Name, Version and download URL:
-https://jakarta.ee/specifications/platform/8 [Jakarta EE Platform, 8]
+https://jakarta.ee/specifications/platform/8[Jakarta EE Platform, 8]
 
 TCK Version, digital SHA-256 fingerprint and download URL:
 https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee8-eftl/staged-801/eclipse-jakartaeetck-8.0.1.zip[Jakarta EE Platform TCK 8.0.1, 3026f2b2fc7a2f1e802aed6cf1671d486dc90d1b03fd3519367577aa9f6545fa]
@@ -40,6 +37,10 @@ Jakarta Dependency Injection 1.0 TCK
 Jakarta Contexts and Dependency Injection 2.0 TCK
 Jakarta Bean Validation 2.0 TCK
 Jakarta Batch 1.0 TCK tests are included in Jakarta EE 8 tests, See Test name: batch 
+----
+
+=== Platform TCK Test results
+Test results:
 ----
 Test name: connector
 [javatest.batch] Completed running 264 tests.
@@ -208,8 +209,8 @@ Test name: websocket
 [javatest.batch] Number of Tests Passed      = 745
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
-
 ----
+
 === Additional standalone TCK Test results
 Standalone test results:
 
