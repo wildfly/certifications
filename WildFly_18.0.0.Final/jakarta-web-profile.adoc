@@ -11,7 +11,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Web Profile, Certification Summary
 ----
-Date:  September 26, 2019
+Date:  October 2, 2019
 Product Name:  WildFly
 Product Version: WildFly 18.0.0.Final
 URL to product download page: https://wildfly.org/downloads
