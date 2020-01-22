@@ -415,6 +415,10 @@ Test name: jpa_core_derivedid
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: jpa_core_entitytest
+[javatest.batch] Completed running 1465 tests.
+[javatest.batch] Number of Tests Passed      = 1465
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
 
 Test name: jpa_core_enums
 [javatest.batch] Completed running 317 tests.
