@@ -237,7 +237,7 @@ Tests run: 1796, Failures: 0, Errors: 0, Skipped: 0
 Jakarta Bean Validation 3.0.0 TCK
 
 Download URL & SHA-256
-https://download.eclipse.org/jakartaee/bean-validation/3.0/beanvalidation-tck-dist-3.0.0.zip, c975fd229df0c40947a9f0a69b779ec92bebb3d21e05fdc65fccc1d11ef5525b ]
+https://download.eclipse.org/jakartaee/bean-validation/3.0/beanvalidation-tck-dist-3.0.0.zip[beanvalidation-tck-dist-3.0.0.zip, c975fd229df0c40947a9f0a69b779ec92bebb3d21e05fdc65fccc1d11ef5525b ]
 
 TCK Result Summary:
 ----
