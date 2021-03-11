@@ -12,7 +12,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 === WildFly Web Profile, Certification Summary
 ----
 Date:  March 11, 2021
-Product Name, Version:  WildFly Preview 23.0.0.Final
+Product Name, Version: WildFly Preview 23.0.0.Final
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 9 Web Profile Specifications
@@ -42,8 +42,8 @@ Jakarta Batch 2.0 TCK tests are included in Jakarta EE 9 tests, See Test name: b
 Test results:
 ----
 Test name: connector
-[javatest.batch] Completed running 264 tests.
-[javatest.batch] Number of Tests Passed      = 264
+[javatest.batch] Completed running 252 tests.
+[javatest.batch] Number of Tests Passed      = 252
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 
@@ -66,8 +66,8 @@ Test name: el
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: jaxrs
-[javatest.batch] Completed running 976 tests.
-[javatest.batch] Number of Tests Passed      = 976
+[javatest.batch] Completed running 974 tests.
+[javatest.batch] Number of Tests Passed      = 974
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 
@@ -168,8 +168,8 @@ Test name: jsonp
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: jsp
-[javatest.batch] Completed running 721 tests.
-[javatest.batch] Number of Tests Passed      = 721
+[javatest.batch] Completed running 720 tests.
+[javatest.batch] Number of Tests Passed      = 720
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 
@@ -186,8 +186,8 @@ Test name: jta
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: securityapi
-[javatest.batch] Completed running 83 tests.
-[javatest.batch] Number of Tests Passed      = 83
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 
@@ -205,8 +205,8 @@ Test name: signaturetest_javaee
 
 Test name: websocket
 [javatest.batch] Completed running 745 tests.
-[javatest.batch] Number of Tests Passed      = 745
-[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests Passed      = 744
+[javatest.batch] Number of Tests Failed      = 1
 [javatest.batch] Number of Tests with Errors = 0
 
 ----
