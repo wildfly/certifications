@@ -214,7 +214,7 @@ Test name: websocket
 === Additional standalone TCK Test results
 Standalone test results:
 
-Jakarta Dependency Injection 1.0 TCK
+Jakarta Dependency Injection 2.0.1 TCK
 
 Download URL & SHA-256:
 https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.1-bin.zip[jakarta.inject-tck-2.0.1-bin.zip, 7853d02d372838f8300f5a18cfcc23011c9eb9016cf3980bba9442e4b1f8bfc6 ]
