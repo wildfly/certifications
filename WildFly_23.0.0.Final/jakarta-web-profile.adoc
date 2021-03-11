@@ -232,6 +232,7 @@ https://download.eclipse.org/jakartaee/cdi/3.0/cdi-tck-3.0.1-dist.zip[cdi-tck-3.
 TCK result summary:
 ----
 Tests run: 1796, Failures: 0, Errors: 0, Skipped: 0
+----
 
 Jakarta Bean Validation 3.0.0 TCK
 
@@ -242,3 +243,4 @@ TCK Result Summary:
 ----
 Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
 ----
+
