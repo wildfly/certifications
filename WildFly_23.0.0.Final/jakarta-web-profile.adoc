@@ -35,7 +35,6 @@ Any Additional Specification Certification Requirements:
 Jakarta Dependency Injection 2.0.1 TCK
 Jakarta Contexts and Dependency Injection 3.0.1 TCK
 Jakarta Bean Validation 3.0.0 TCK
-Jakarta Batch 2.0 TCK tests are included in Jakarta EE 9 tests, See Test name: batch 
 ----
 
 === Web Profile TCK Test results
