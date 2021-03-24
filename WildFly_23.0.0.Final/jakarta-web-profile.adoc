@@ -9,7 +9,7 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Web Profile 9.
 
 
-=== WildFly Web Profile, Certification Summary
+=== WildFly Preview Web Profile, Certification Summary
 ----
 Date:  March 11, 2021
 Product Name, Version: WildFly Preview 23.0.0.Final
