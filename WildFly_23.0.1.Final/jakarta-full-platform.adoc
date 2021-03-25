@@ -9,9 +9,9 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform 9.
 
 
-=== WildFly Full Platform, Certification Summary
+=== WildFly Preview Full Platform, Certification Summary
 ----
-Date:  March 23, 2021
+Date:  March 24, 2021
 Product Name, Version: WildFly Preview 23.0.0.Final
 URL to product download page: https://wildfly.org/downloads
 
