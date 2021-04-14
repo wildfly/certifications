@@ -11,8 +11,8 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Preview Full Platform, Certification Summary
 ----
-Date:  March 24, 2021
-Product Name, Version: WildFly Preview 23.0.0.Final
+Date:  April 14, 2021
+Product Name, Version: WildFly Preview 23.0.1.Final
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 9 Full Platform and Web Profile Specifications
