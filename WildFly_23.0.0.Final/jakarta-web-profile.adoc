@@ -204,8 +204,8 @@ Test name: signaturetest_javaee
 
 Test name: websocket
 [javatest.batch] Completed running 745 tests.
-[javatest.batch] Number of Tests Passed      = 744
-[javatest.batch] Number of Tests Failed      = 1
+[javatest.batch] Number of Tests Passed      = 745
+[javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 
 ----
