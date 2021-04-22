@@ -22,7 +22,7 @@ Database version:   Apache Derby Network Server 10.14.2.0
 Database JDBC Driver and version:  Apache Derby 10.14.2.0
 ----
 Specification Name, Version and download URL:
-https://jakarta.ee/specifications/platform/9[Jakarta EE Platform, 9.1]
+https://jakarta.ee/specifications/platform/9.1[Jakarta EE Platform, 9.1]
 
 TCK Version, digital SHA-256 fingerprint and download URL:
  https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee9-eftl/promoted/jakarta-jakartaeetck-9.1.0.zip[Jakarta EE Platform TCK 9.1.0, 16904b7ccd7ae61287b763587e8bfbff50608ab09f3876bb41af65d043263ca7 ]
