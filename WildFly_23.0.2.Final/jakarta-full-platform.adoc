@@ -11,21 +11,21 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Preview Full Platform, Certification Summary
 ----
-Date:  April 22, 2021
+Date:  April 27, 2021
 Product Name, Version: WildFly Preview 23.0.2.Final
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 9.1 Full Platform and Web Profile Specifications
-Java SE provider and Version tested with:  Oracle JDK 1.8.0_191
+Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9, mixed mode)
 OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
-Database version:   Apache Derby Network Server 10.14.2.0
-Database JDBC Driver and version:  Apache Derby 10.14.2.0
+Database version:   Apache Derby Network Server 10.15.2.0
+Database JDBC Driver and version:  Apache Derby 10.15.2.0
 ----
 Specification Name, Version and download URL:
 https://jakarta.ee/specifications/platform/9.1[Jakarta EE Platform, 9.1]
 
 TCK Version, digital SHA-256 fingerprint and download URL:
- https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee9-eftl/promoted/jakarta-jakartaeetck-9.1.0.zip[Jakarta EE Platform TCK 9.1.0, 16904b7ccd7ae61287b763587e8bfbff50608ab09f3876bb41af65d043263ca7 ]
+https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee9-eftl/promoted/jakarta-jakartaeetck-9.1.0.zip[Jakarta EE Platform TCK 9.1.0, 16904b7ccd7ae61287b763587e8bfbff50608ab09f3876bb41af65d043263ca7 ]
 
 Public URL of TCK Results Summary: 
 https://github.com/wildfly/certifications/blob/EE9.1/WildFly_23.0.2.Final/jakarta-full-platform.adoc#tck-results[WildFly 23.0.2.Final TCK results]
@@ -35,6 +35,7 @@ Any Additional Specification Certification Requirements:
 Jakarta Dependency Injection 2.0.1 TCK
 Jakarta Contexts and Dependency Injection 3.0.1 TCK
 Jakarta Bean Validation 3.0.0 TCK
+Jakarta XML Binding 3.0.1 TCK
 ----
 
 === Platform TCK Test results
@@ -565,7 +566,17 @@ Jakarta Bean Validation 3.0.0 TCK
 Download URL & SHA-256
 https://download.eclipse.org/jakartaee/bean-validation/3.0/beanvalidation-tck-dist-3.0.0.zip[beanvalidation-tck-dist-3.0.0.zip, c975fd229df0c40947a9f0a69b779ec92bebb3d21e05fdc65fccc1d11ef5525b ]
 
-TCK Result Summary:
+TCK result summary:
 ----
 Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
+----
+
+Jakarta XML Binding 3.0.1 TCK
+
+Download URL & SHA-256
+https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee9-eftl/promoted/jakarta-xml-binding-tck-3.0.1.zip, a9356a2eb989e8cb7f663ed5fd244d8e2d222e2c4108c40c65001bec90f40baf ]
+
+TCK result summary:
+----
+Pass: 24,628  Fail: 0  Error: 0  Not-Run: 0
 ----
