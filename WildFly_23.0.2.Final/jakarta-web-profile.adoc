@@ -6,13 +6,13 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 
 [[introduction]]
 == Introduction
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Web Profile 9.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Web Profile 9.1.
 
 
 === WildFly Preview Web Profile, Certification Summary
 ----
-Date:  April 12, 2021
-Product Name, Version: WildFly Preview 23.0.1.Final
+Date:  April 29, 2021
+Product Name, Version: WildFly Preview 23.0.2.Final
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 9 Web Profile Specification
@@ -28,7 +28,7 @@ TCK Version, digital SHA-256 fingerprint and download URL:
 https://download.eclipse.org/jakartaee/platform/9/jakarta-jakartaeetck-9.0.0.zip[Jakarta EE Platform TCK 9.0.0, 75b2493a117e7f8fe775cc7e2e8a605a203611895091f4bb9aaabed57f813392 ]
 
 Public URL of TCK Results Summary: 
-https://github.com/wildfly/certifications/blob/EE9/WildFly_23.0.1.Final/jakarta-web-profile.adoc[WildFly 23.0.1.Final TCK results]
+https://github.com/wildfly/certifications/blob/EE9/WildFly_23.0.2.Final/jakarta-web-profile.adoc[WildFly 23.0.2.Final TCK results]
 
 Any Additional Specification Certification Requirements:
 ----
@@ -242,4 +242,3 @@ TCK Result Summary:
 ----
 Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
 ----
-
