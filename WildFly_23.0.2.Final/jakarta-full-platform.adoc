@@ -11,11 +11,11 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Preview Full Platform, Certification Summary
 ----
-Date:  April 27, 2021
+Date:  April 29, 2021
 Product Name, Version: WildFly Preview 23.0.2.Final
 URL to product download page: https://wildfly.org/downloads
 
-Product Description: An implementation of the Jakarta EE 9.1 Full Platform and Web Profile Specifications
+Product Description: An implementation of the Jakarta EE 9.1 Full Platform Specification
 Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM 18.9 (build 11.0.10+9, mixed mode)
 OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
 Database version:   Apache Derby Network Server 10.15.2.0
