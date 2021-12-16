@@ -1,0 +1,19 @@
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+.checkstyle
+
+# ignore IDEA files
+*.iml
+*.ipr
+*.iws
+.idea
+# ignore NetBeans files
+nbactions.xml
+nb-configuration.xml
+catalog.xml
+
+#OS X stuff
+.DS_Store
