@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="213">
+  <testsuite name="org.eclipse.microprofile.metrics.tck.MetricFilterTest" time="1.124" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="theAllFilterMatchesAllMetrics" classname="org.eclipse.microprofile.metrics.tck.MetricFilterTest" time="0.076"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.MetricIDTest" time="1.227" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="removalTest" classname="org.eclipse.microprofile.metrics.tck.MetricIDTest" time="0.089"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="1.72" tests="7" errors="0" skipped="0" failures="0">
+    <testcase name="nameTest" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.137"/>
+    <testcase name="registerTest" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.012"/>
+    <testcase name="removeTest" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.011"/>
+    <testcase name="useExistingMetaDataTest" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.011"/>
+    <testcase name="testMetricRegistryType" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.01"/>
+    <testcase name="sanitizeMetadataTest" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.013"/>
+    <testcase name="conflictingMetadataTest" classname="org.eclipse.microprofile.metrics.tck.MetricRegistryTest" time="0.042"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest" time="1.167" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest" time="0.127"/>
+    <testcase name="callTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.cdi.ApplicationScopedTimedMethodBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest" time="1.042" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="gaugeCalledWithDefaultValue" classname="org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest" time="0.085"/>
+    <testcase name="callGaugeAfterSetterCall" classname="org.eclipse.microprofile.metrics.tck.cdi.GaugeInjectionBeanTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.cdi.MeterInjectionBeanTest" time="1.049" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="meteredMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.cdi.MeterInjectionBeanTest" time="0.08"/>
+    <testcase name="callMeteredMethodOnce" classname="org.eclipse.microprofile.metrics.tck.cdi.MeterInjectionBeanTest" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.cdi.SimpleTimerInjectionBeanTest" time="3.051" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.cdi.SimpleTimerInjectionBeanTest" time="0.082"/>
+    <testcase name="callSimplyTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.cdi.SimpleTimerInjectionBeanTest" time="2.01"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest" time="3.184" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest" time="0.088"/>
+    <testcase name="callTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.cdi.TimerInjectionBeanTest" time="2.011"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest" time="1.011" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="testWithMetadata" classname="org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest" time="0.08"/>
+    <testcase name="testPlainAnnotation" classname="org.eclipse.microprofile.metrics.tck.cdi.stereotype.StereotypeCountedClassBeanTest" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest" time="1.051" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="gaugesCalledWithDefaultValues" classname="org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest" time="0.085"/>
+    <testcase name="callGaugesAfterSetterCalls" classname="org.eclipse.microprofile.metrics.tck.inheritance.InheritedGaugeMethodBeanTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.inheritance.InheritedSimplyTimedMethodBeanTest" time="1.135" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.inheritance.InheritedSimplyTimedMethodBeanTest" time="0.101"/>
+    <testcase name="callSimplyTimedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.inheritance.InheritedSimplyTimedMethodBeanTest" time="0.01"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest" time="1.13" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest" time="0.125"/>
+    <testcase name="callTimedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.inheritance.InheritedTimedMethodBeanTest" time="0.009"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.inheritance.VisibilitySimplyTimedMethodBeanTest" time="1.101" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.inheritance.VisibilitySimplyTimedMethodBeanTest" time="0.092"/>
+    <testcase name="callSimplyTimedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.inheritance.VisibilitySimplyTimedMethodBeanTest" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest" time="1.028" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest" time="0.088"/>
+    <testcase name="callTimedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.inheritance.VisibilityTimedMethodBeanTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest" time="1.22" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest" time="0.094"/>
+    <testcase name="extendedTimedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest" time="0.009"/>
+    <testcase name="callTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest" time="0.014"/>
+    <testcase name="callExtendedTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteExtendedTimedBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest" time="1.455" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest" time="0.11"/>
+    <testcase name="extendedTimedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest" time="0.009"/>
+    <testcase name="callTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest" time="0.01"/>
+    <testcase name="callExtendedTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcreteTimedBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeFunctionalTest" time="120.013" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="testMinMax" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeFunctionalTest" time="118.974"/>
+    <testcase name="testConcurrentInvocations" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeFunctionalTest" time="0.015"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeTest" time="1.06" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="getCountTest" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeTest" time="0.079"/>
+    <testcase name="incrementTest" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeTest" time="0.007"/>
+    <testcase name="decrementTest" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugeTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedClassBeanTest" time="1.209" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="countedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedClassBeanTest" time="0.081"/>
+    <testcase name="callCountedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedClassBeanTest" time="0.018"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedConstructorBeanTest" time="1.536" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="countedConstructorCalled" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedConstructorBeanTest" time="0.287"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest" time="1.421" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="countedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest" time="0.099"/>
+    <testcase name="metricInjectionIntoTest" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest" time="0.016"/>
+    <testcase name="callCountedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest" time="0.013"/>
+    <testcase name="removeCounterFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.ConcurrentGaugedMethodBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest" time="1.911" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="countedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest" time="0.146"/>
+    <testcase name="callCountedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedClassBeanTest" time="0.022"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest" time="1.514" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="countedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest" time="0.114"/>
+    <testcase name="metricInjectionIntoTest" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest" time="0.018"/>
+    <testcase name="callCountedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest" time="0.015"/>
+    <testcase name="removeCounterFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest" time="1.375" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="counterTagMethodsRegistered" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest" time="0.128"/>
+    <testcase name="countedTagMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.CountedMethodTagBeanTest" time="0.034"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest" time="7.838" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="counterFieldRegistered" classname="org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest" time="0.225"/>
+    <testcase name="incrementCounterField" classname="org.eclipse.microprofile.metrics.tck.metrics.CounterFieldBeanTest" time="0.026"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.CounterTest" time="1.441" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="getCountTest" classname="org.eclipse.microprofile.metrics.tck.metrics.CounterTest" time="0.106"/>
+    <testcase name="incrementTest" classname="org.eclipse.microprofile.metrics.tck.metrics.CounterTest" time="0.009"/>
+    <testcase name="incrementLongTest" classname="org.eclipse.microprofile.metrics.tck.metrics.CounterTest" time="0.01"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.DefaultNameMetricMethodBeanTest" time="1.08" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="metricMethodsWithDefaultNamingConvention" classname="org.eclipse.microprofile.metrics.tck.metrics.DefaultNameMetricMethodBeanTest" time="0.075"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest" time="1.139" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="gaugeCalledWithDefaultValue" classname="org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest" time="0.088"/>
+    <testcase name="callGaugeAfterSetterCall" classname="org.eclipse.microprofile.metrics.tck.metrics.GaugeMethodBeanTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.GaugeTest" time="1.442" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="testManualGauge" classname="org.eclipse.microprofile.metrics.tck.metrics.GaugeTest" time="0.1"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest" time="1.362" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="histogramFieldRegistered" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest" time="0.104"/>
+    <testcase name="updateHistogramField" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramFieldBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="1.28" tests="15" errors="0" skipped="0" failures="0">
+    <testcase name="testSum" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.084"/>
+    <testcase name="testCount" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.008"/>
+    <testcase name="testSnapshot99thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.012"/>
+    <testcase name="testSnapshotMax" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.011"/>
+    <testcase name="testSnapshotMin" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.009"/>
+    <testcase name="testSnapshot98thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.011"/>
+    <testcase name="testSnapshotMean" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.009"/>
+    <testcase name="testSnapshotSize" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.009"/>
+    <testcase name="testSnapshot95thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.007"/>
+    <testcase name="testMetricRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.01"/>
+    <testcase name="testSnapshotMedian" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.006"/>
+    <testcase name="testSnapshotStdDev" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.008"/>
+    <testcase name="testSnapshotValues" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.011"/>
+    <testcase name="testSnapshot999thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.006"/>
+    <testcase name="testSnapshot75thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.HistogramTest" time="0.006"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.MeterTest" time="76.465" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="testCount" classname="org.eclipse.microprofile.metrics.tck.metrics.MeterTest" time="0.091"/>
+    <testcase name="testRates" classname="org.eclipse.microprofile.metrics.tck.metrics.MeterTest" time="75.026"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.MeteredClassBeanTest" time="1.47" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="meteredMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.MeteredClassBeanTest" time="0.083"/>
+    <testcase name="callMeteredMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.MeteredClassBeanTest" time="0.009"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.MeteredConstructorBeanTest" time="1.471" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="meteredConstructorCalled" classname="org.eclipse.microprofile.metrics.tck.metrics.MeteredConstructorBeanTest" time="0.108"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.MeteredMethodBeanTest" time="1.163" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="meteredMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.MeteredMethodBeanTest" time="0.087"/>
+    <testcase name="callMeteredMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.MeteredMethodBeanTest" time="0.014"/>
+    <testcase name="removeMeterFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.MeteredMethodBeanTest" time="0.014"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsConstructorBeanTest" time="1.161" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="metricsConstructorCalled" classname="org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsConstructorBeanTest" time="0.088"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest" time="1.376" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="metricsMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest" time="0.103"/>
+    <testcase name="callMetricsMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.MultipleMetricsMethodBeanTest" time="0.013"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest" time="1.34" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="overloadedTimedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest" time="0.089"/>
+    <testcase name="callOverloadedTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.OverloadedTimedMethodBeanTest" time="0.009"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFieldBeanTest" time="1.573" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="simpleTimerFieldsWithDefaultNamingConvention" classname="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFieldBeanTest" time="0.113"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFunctionalTest" time="121.216" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="testMinMaxEqual" classname="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerFunctionalTest" time="119.944"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest" time="2.276" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="testTime" classname="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest" time="1.093"/>
+    <testcase name="testTimerRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest" time="0.008"/>
+    <testcase name="timesCallableInstances" classname="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest" time="0.011"/>
+    <testcase name="timesRunnableInstances" classname="org.eclipse.microprofile.metrics.tck.metrics.SimpleTimerTest" time="0.009"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedClassBeanTest" time="1.431" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedClassBeanTest" time="0.125"/>
+    <testcase name="callSimplyTimedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedClassBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedConstructorBeanTest" time="1.312" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="simpleTimerConstructorCalled" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedConstructorBeanTest" time="0.094"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanLookupTest" time="3.272" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanLookupTest" time="0.076"/>
+    <testcase name="callSimplyTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanLookupTest" time="2.016"/>
+    <testcase name="removeSimplyTimedFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanLookupTest" time="0.037"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanTest" time="3.559" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanTest" time="0.103"/>
+    <testcase name="callSimplyTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanTest" time="2.016"/>
+    <testcase name="removeSimpleTimerFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.SimplyTimedMethodBeanTest" time="0.014"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest" time="2.432" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodsNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest" time="0.157"/>
+    <testcase name="callTimedMethodsOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedClassBeanTest" time="0.035"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.TimedConstructorBeanTest" time="1.77" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="timedConstructorCalled" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedConstructorBeanTest" time="0.197"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest" time="3.376" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest" time="0.106"/>
+    <testcase name="callTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest" time="2.01"/>
+    <testcase name="removeTimerFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanLookupTest" time="0.016"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest" time="3.35" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="timedMethodNotCalledYet" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest" time="0.09"/>
+    <testcase name="callTimedMethodOnce" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest" time="2.011"/>
+    <testcase name="removeTimerFromRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.TimedMethodBeanTest" time="0.012"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.TimerFieldBeanTest" time="1.196" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="timerFieldsWithDefaultNamingConvention" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerFieldBeanTest" time="0.094"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="77.235" tests="17" errors="0" skipped="0" failures="0">
+    <testcase name="testSnapshot99thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.083"/>
+    <testcase name="testSnapshotMax" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.012"/>
+    <testcase name="testSnapshotMin" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshot98thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshotMean" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.007"/>
+    <testcase name="testSnapshotSize" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshot95thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshotMedian" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshotStdDev" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshotValues" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.02"/>
+    <testcase name="testSnapshot999thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testSnapshot75thPercentile" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+    <testcase name="testRate" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="75.024"/>
+    <testcase name="testTime" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="1.009"/>
+    <testcase name="testTimerRegistry" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.009"/>
+    <testcase name="timesCallableInstances" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.019"/>
+    <testcase name="timesRunnableInstances" classname="org.eclipse.microprofile.metrics.tck.metrics.TimerTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest" time="1.151" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="counterTagFieldsRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest" time="0.082"/>
+    <testcase name="incrementCounterTagFields" classname="org.eclipse.microprofile.metrics.tck.tags.CounterFieldTagBeanTest" time="0.011"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest" time="1.174" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="gaugeTagCalledWithDefaultValue" classname="org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest" time="0.098"/>
+    <testcase name="callGaugeTagAfterSetterCall" classname="org.eclipse.microprofile.metrics.tck.tags.GaugeTagMethodBeanTest" time="0.007"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest" time="1.023" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="histogramTagFieldRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest" time="0.084"/>
+    <testcase name="updateHistogramTagField" classname="org.eclipse.microprofile.metrics.tck.tags.HistogramTagFieldBeanTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.MeteredTagMethodBeanTest" time="1.177" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="meteredTagMethodRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.MeteredTagMethodBeanTest" time="0.079"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.SimplerTimerTagFieldBeanTest" time="1.024" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="simpleTimersTagFieldRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.SimplerTimerTagFieldBeanTest" time="0.081"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.SimplyTimedTagMethodBeanTest" time="1.152" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="simplyTimedTagMethodRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.SimplyTimedTagMethodBeanTest" time="0.086"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="1.141" tests="8" errors="0" skipped="0" failures="0">
+    <testcase name="simpleTagTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.097"/>
+    <testcase name="lastTagValueTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.008"/>
+    <testcase name="counterTagsTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.009"/>
+    <testcase name="meterTagsTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.01"/>
+    <testcase name="timerTagsTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.009"/>
+    <testcase name="histogramTagsTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.011"/>
+    <testcase name="simpleTimerTagsTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.008"/>
+    <testcase name="concurrentGuageTagsTest" classname="org.eclipse.microprofile.metrics.tck.tags.TagsTest" time="0.008"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.TimedTagMethodBeanTest" time="1.146" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="timedTagMethodRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.TimedTagMethodBeanTest" time="0.081"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.tck.tags.TimerTagFieldBeanTest" time="1.152" tests="1" errors="0" skipped="0" failures="0">
+    <testcase name="timersTagFieldRegistered" classname="org.eclipse.microprofile.metrics.tck.tags.TimerTagFieldBeanTest" time="0.096"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.test.MpMetricTest" time="5.4" tests="47" errors="0" skipped="0" failures="0">
+    <testcase name="testApplicationJsonResponseContentType" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.638"/>
+    <testcase name="testTextPlainResponseContentType" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.045"/>
+    <testcase name="testBadSubTreeWillReturn404" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.021"/>
+    <testcase name="testListsAllJson" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.306"/>
+    <testcase name="testBase" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.122"/>
+    <testcase name="testBaseOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.015"/>
+    <testcase name="testBaseAttributeJson" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.014"/>
+    <testcase name="testBaseSingularMetricsPresent" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.056"/>
+    <testcase name="testBaseAttributeOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.013"/>
+    <testcase name="testBaseMetadata" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.016"/>
+    <testcase name="testBaseMetadataSingluarItems" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.018"/>
+    <testcase name="testBaseMetadataTypeAndUnit" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.014"/>
+    <testcase name="testOpenMetricsFormatNoBadChars" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.01"/>
+    <testcase name="testBaseMetadataSingluarItemsOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.016"/>
+    <testcase name="testBaseMetadataGarbageCollection" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.016"/>
+    <testcase name="testApplicationMetadataOkJson" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.022"/>
+    <testcase name="testSetupApplicationMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="1.127"/>
+    <testcase name="testApplicationMetricsJSON" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.7"/>
+    <testcase name="testApplicationMetadataItems" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.012"/>
+    <testcase name="testApplicationMetadataTypeAndUnit" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.015"/>
+    <testcase name="testApplicationTagJson" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.03"/>
+    <testcase name="testApplicationTagOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.006"/>
+    <testcase name="testApplicationMeterUnitOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.007"/>
+    <testcase name="testApplicationTimerUnitOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.009"/>
+    <testcase name="testApplicationHistogramUnitBytesOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.009"/>
+    <testcase name="testApplicationHistogramUnitNoneOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.008"/>
+    <testcase name="testOpenMetrics406ForOptions" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.005"/>
+    <testcase name="testConvertingToBaseUnit" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.013"/>
+    <testcase name="testNonStandardUnitsJSON" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.013"/>
+    <testcase name="testNonStandardUnitsOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.008"/>
+    <testcase name="testOptionalBaseMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.022"/>
+    <testcase name="testSetupPromNoBadCharsInNames" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.013"/>
+    <testcase name="testPromNoBadCharsInNames" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.013"/>
+    <testcase name="testAccept1" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.013"/>
+    <testcase name="testAccept2" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.01"/>
+    <testcase name="testAccept3" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.005"/>
+    <testcase name="testAccept4" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.01"/>
+    <testcase name="testAccept5" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.008"/>
+    <testcase name="testNoAcceptHeader" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.011"/>
+    <testcase name="testCustomUnitAppendToGaugeName" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.01"/>
+    <testcase name="testNoCustomUnitForCounter" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.009"/>
+    <testcase name="testGcCountMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.011"/>
+    <testcase name="testGcTimeMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.012"/>
+    <testcase name="testMultipleTaggedMetricsJSON" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.674"/>
+    <testcase name="testTranslateSemiColonToUnderScoreJSON" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.026"/>
+    <testcase name="testApplicationConcurrentGaugeOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.005"/>
+    <testcase name="testApplicationSimpleTimerUnitOpenMetrics" classname="org.eclipse.microprofile.metrics.test.MpMetricTest" time="0.006"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.test.ReusedMetricsTest" time="1.185" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="setA" classname="org.eclipse.microprofile.metrics.test.ReusedMetricsTest" time="0.085"/>
+    <testcase name="testSharedCounter" classname="org.eclipse.microprofile.metrics.test.ReusedMetricsTest" time="0.027"/>
+    <testcase name="setB" classname="org.eclipse.microprofile.metrics.test.ReusedMetricsTest" time="0.008"/>
+    <testcase name="testSharedCounterAgain" classname="org.eclipse.microprofile.metrics.test.ReusedMetricsTest" time="0.033"/>
+  </testsuite>
+  <testsuite name="org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest" time="1.07" tests="3" errors="0" skipped="0" failures="0">
+    <testcase name="testMeter" classname="org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest" time="0.097"/>
+    <testcase name="testTimer" classname="org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest" time="0.007"/>
+    <testcase name="testCounter" classname="org.eclipse.microprofile.metrics.test.multipleinstances.MultipleBeanInstancesTest" time="0.009"/>
+  </testsuite>
+</testsuites>

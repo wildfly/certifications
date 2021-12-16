@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="435">
+  <testsuite hostname="localhost.localdomain" failures="0" tests="5" name="org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest" time="7.529" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest" name="testCancelledDoesNotRetry" time="1.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest" name="testCancel" time="0.227"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest" name="testCancelWithoutInterrupt" time="2.249"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest" name="testCancelledWhileQueued" time="2.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncCancellationTest" name="testCancelledButRemainsInBulkhead" time="2.019"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" time="0.191" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" name="testAsyncCSFallbackFutureCompletesExceptionally" time="0.122"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" name="testAsyncCSFallbackMethodThrows" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" name="testAsyncFallbackFutureCompletesExceptionally" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" name="testAsyncFallbackSuccess" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" name="testAsyncFallbackMethodThrows" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncFallbackTest" name="testAsyncCSFallbackSuccess" time="0.016"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.fault.tolerance.tck.AsyncTimeoutTest" time="9.157" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncTimeoutTest" name="testAsyncNoTimeout" time="1.020"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncTimeoutTest" name="testAsyncClassLevelTimeout" time="4.112"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsyncTimeoutTest" name="testAsyncTimeout" time="4.025"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="7" name="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" time="1.734" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testAsyncCallbacksChained" time="0.612"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testAsyncCompletesExceptionallyWhenExceptionThrown" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testClassLevelAsyncIsNotFinished" time="0.522"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testAsyncIsNotFinished" time="0.516"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testClassLevelAsyncIsFinished" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testAsyncCompletesExceptionallyWhenCompletedExceptionally" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousCSTest" name="testAsyncIsFinished" time="0.017"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" time="0.410" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" name="testClassLevelAsyncIsFinished" time="0.114"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" name="testClassLevelAsyncIsNotFinished" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" name="testAsyncIsFinished" time="0.229"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" name="testAsyncIsNotFinished" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" name="testAsyncRequestContextWithFuture" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.AsynchronousTest" name="testAsyncRequestContextWithCompletionStage" time="0.016"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerBulkheadTest" time="2.163" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerBulkheadTest" name="testCircuitBreakerAroundBulkheadSync" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerBulkheadTest" name="testCircuitBreakerAroundBulkheadAsync" time="1.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerBulkheadTest" name="testCircuitBreaker" time="1.124"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="27" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" time="0.414" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsRuntimeException" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsE2" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsError" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsE1S" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsE2" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsE2S" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsE1" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsE0S" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsE2S" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsE1" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsError" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsException" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsE0" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsE1S" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsE0" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsRuntimeException" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsRuntimeException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsE0S" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsE0S" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsE0" time="0.107"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsE1" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsE1S" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceAthrowsException" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsError" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceCthrowsE2" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerExceptionHierarchyTest" name="serviceBthrowsE2S" time="0.011"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerInitialSuccessTest" time="2.108" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerInitialSuccessTest" name="testCircuitInitialSuccessDefaultSuccessThreshold" time="2.108"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerLateSuccessTest" time="2.121" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerLateSuccessTest" name="testCircuitLateSuccessDefaultSuccessThreshold" time="2.121"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="12" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" time="8.486" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testRetriesSucceedWhenCircuitClosesAsync" time="2.022"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testNoRetriesIfAbortOnAsync" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testClassLevelCircuitOpenWithMoreRetries" time="0.635"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testCircuitOpenWithMoreRetries" time="0.189"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testCircuitOpenWithMultiTimeouts" time="1.466"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testCircuitOpenWithFewRetriesAsync" time="0.218"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testNoRetriesIfNotRetryOnAsync" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testClassLevelCircuitOpenWithFewRetries" time="0.065"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testCircuitOpenWithFewRetries" time="0.185"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testCircuitOpenWithMoreRetriesAsync" time="0.220"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testRetriesSucceedWhenCircuitCloses" time="2.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerRetryTest" name="testCircuitOpenWithMultiTimeoutsAsync" time="1.438"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="9" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" time="5.245" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testClassLevelCircuitOverrideNoDelay" time="0.513"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testCircuitHighSuccessThreshold" time="2.020"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testCircuitReClose" time="0.514"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testRollingWindowCircuitOpen" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testCircuitDefaultSuccessThreshold" time="2.021"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testClassLevelCircuitBase" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testCircuitClosedThenOpen" time="0.129"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testRollingWindowCircuitOpen2" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTest" name="testClassLevelCircuitOverride" time="0.011"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTimeoutTest" time="5.154" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTimeoutTest" name="testTimeout" time="2.119"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.CircuitBreakerTimeoutTest" name="testTimeoutWithoutFailOn" time="3.035"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="5" name="org.eclipse.microprofile.fault.tolerance.tck.ConfigTest" time="3.374" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.ConfigTest" name="testConfigMaxDuration" time="1.204"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.ConfigTest" name="testClassLevelConfigMaxDuration" time="1.146"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.ConfigTest" name="testConfigMaxRetries" time="0.262"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.ConfigTest" name="testClassLevelConfigMethodOverrideMaxRetries" time="0.219"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.ConfigTest" name="testClassLevelConfigMaxRetries" time="0.543"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="27" name="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" time="0.434" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsRuntimeException" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsRuntimeException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsException" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsE2" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsE2" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsE2S" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsE1S" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsE1" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsRuntimeException" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsE0" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsError" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsE0" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsError" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsE1S" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsE2" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsError" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsE1S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsE0" time="0.122"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsE0S" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsE1" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsE1" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceAthrowsException" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsE2S" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsE0S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsE0S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceCthrowsException" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackExceptionHierarchyTest" name="serviceBthrowsE2S" time="0.012"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="9" name="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" time="1.994" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testStandaloneMethodFallback" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testStandaloneHandlerFallback" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testFallbacktNoTimeout" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testFallbackMethodWithArgsSuccess" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testFallbackWithBeanSuccess" time="0.203"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testFallbackTimeout" time="1.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testClassLevelFallbackSuccess" time="0.469"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testFallbackSuccess" time="0.106"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.FallbackTest" name="testFallbackMethodSuccess" time="0.088"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="19" name="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" time="3.962" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryParallelExceptionally" time="0.315"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testClassLevelRetryWithAbortOnTrue" time="0.113"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testNoAsynWilNotRetryExceptionally" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testClassLevelRetryOnFalse" time="0.133"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testNoAsynRetryOnMethodException" time="0.169"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetrySuccess" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testClassLevelRetryWithAbortOnFalse" time="0.459"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryOnTrue" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryOnFalse" time="0.113"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryWithAbortOnTrue" time="0.109"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryChainExceptionally" time="0.814"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryOnTrueThrowingAChildCustomException" time="0.053"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryParallelSuccess" time="0.328"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testClassLevelRetryOnTrue" time="0.181"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryCompletionStageWithException" time="0.134"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryOnFalseAndAbortOnTrueThrowingAChildCustomException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryChainSuccess" time="0.638"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testRetryWithAbortOnFalse" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryConditionTest" name="testAsyncRetryExceptionally" time="0.305"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="27" name="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" time="0.539" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsError" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsE1S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsE1S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsE2" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsE2S" time="0.008"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsRuntimeException" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsRuntimeException" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsE0" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsE2S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsE2" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsError" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsE1" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsE0S" time="0.033"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsE2S" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsE0S" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsE0" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsException" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsE1S" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsE1" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsE0S" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsRuntimeException" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsE0" time="0.206"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceCthrowsE1" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceBthrowsE2" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryExceptionHierarchyTest" name="serviceAthrowsError" time="0.012"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="8" name="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" time="15.044" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testClassLevelRetryMaxDuration" time="1.171"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testClassLevelRetryMaxDurationSeconds" time="1.111"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testRetryMaxDurationSeconds" time="1.051"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testRetryMaxRetries" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testRetryMaxDuration" time="1.067"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testRetryWithDelay" time="7.294"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testRetryWithNoDelayAndJitter" time="3.260"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTest" name="testClassLevelRetryMaxRetries" time="0.054"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="4" name="org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest" time="4.393" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest" name="testRetryTimeout" time="2.037"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest" name="testRetryWithoutRetryOn" time="1.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest" name="testRetryNoTimeout" time="0.320"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.RetryTimeoutTest" name="testRetryWithAbortOn" time="1.018"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.TimeoutGlobalConfigTest" time="0.312" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutGlobalConfigTest" name="testTimeout" time="0.312"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.TimeoutMethodConfigTest" time="0.309" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutMethodConfigTest" name="testTimeout" time="0.309"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="16" name="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" time="17.378" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testLTDefaultTimeoutClassLevel" time="0.517"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testGTDefaultTimeoutOverride" time="2.019"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testGTShorterNoTimeoutOverride" time="1.515"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testLTDefaultNoTimeout" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testLTDefaultNoTimeoutClassLevel" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testNoTimeoutClassLevel" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testTimeout" time="1.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testLTDefaultTimeout" time="0.510"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testGTDefaultNoTimeout" time="1.607"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testSecondsTimeout" time="2.019"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testNoTimeout" time="0.035"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testGTShorterTimeoutOverride" time="2.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testGTDefaultTimeout" time="2.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testGTDefaultNoTimeoutOverride" time="1.516"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testTimeoutClassLevel" time="1.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutTest" name="testSecondsNoTimeout" time="1.511"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="7" name="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" time="13.042" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeoutAsyncRetry" time="3.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeout" time="2.136"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeoutAsyncBulkhead" time="3.629"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeoutAsyncCS" time="1.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeoutAsyncBulkheadQueueTimed" time="1.219"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeoutAsyncFallback" time="1.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.TimeoutUninterruptableTest" name="testTimeoutAsync" time="1.016"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.ZeroRetryJitterTest" time="0.103" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.ZeroRetryJitterTest" name="test" time="0.103"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="8" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" time="18.539" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testBulkheadExceptionRetriedClassAsync" time="2.134"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testRetriesReenterBulkhead" time="3.020"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testBulkheadExceptionThrownMethodAsync" time="2.131"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testBulkheadExceptionThrownClassAsync" time="2.159"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testRetriesJoinBackOfQueue" time="5.026"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testNoRetriesWithoutRetryOn" time="1.023"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testNoRetriesWithAbortOn" time="1.024"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchRetryTest" name="testBulkheadExceptionRetriedMethodAsync" time="2.022"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="9" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" time="17.963" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadMethodAsynchronousQueueing5" time="2.124"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadMethodAsynchronousDefault" time="2.129"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadClassAsynchronous3" time="2.125"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadMethodAsynchronous3" time="2.119"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadMethodAsynchronous10" time="2.129"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadClassAsynchronousDefault" time="2.128"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadClassAsynchronous10" time="2.263"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadClassAsynchronousQueueing5" time="2.122"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadAsynchTest" name="testBulkheadCompletionStage" time="0.824"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="4" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest" time="0.386" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest" name="testBulkheadClassAsynchFutureDoneAfterGet" time="0.107"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest" name="testBulkheadClassAsynchFutureDoneWithoutGet" time="0.121"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest" name="testBulkheadMethodAsynchFutureDoneWithoutGet" time="0.117"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadFutureTest" name="testBulkheadMethodAsynchFutureDoneAfterGet" time="0.041"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadPressureTest" time="10.476" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadPressureTest" name="testBulkheadPressureSync" time="5.152"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadPressureTest" name="testBulkheadPressureAsync" time="5.324"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchConfigTest" time="0.104" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchConfigTest" name="testBulkheadClassSemaphore3" time="0.104"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="5" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchRetryTest" time="4.187" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchRetryTest" name="testRetryTestExceptionClass" time="2.019"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchRetryTest" name="testNoRetriesWithoutRetryOn" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchRetryTest" name="testNoRetriesWithMaxRetriesZero" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchRetryTest" name="testNoRetriesWithAbortOn" time="0.121"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchRetryTest" name="testRetryTestExceptionMethod" time="2.016"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" time="0.206" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" name="testBulkheadMethodSemaphore3" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" name="testBulkheadMethodSemaphoreDefault" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" name="testBulkheadClassSemaphore3" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" name="testBulkheadMethodSemaphore10" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" name="testBulkheadClassSemaphoreDefault" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.BulkheadSynchTest" name="testBulkheadClassSemaphore10" time="0.125"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest" time="0.511" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest" name="noSharingBetweenClassesWithCommonSuperclass" time="0.130"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest" name="noSharingBetweenMethodsOfOneClass" time="0.150"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.bulkhead.lifecycle.BulkheadLifecycleTest" name="noSharingBetweenClasses" time="0.231"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigGlobalTest" time="0.648" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigGlobalTest" name="testCircuitDefaultSuccessThreshold" time="0.648"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigOnMethodTest" time="0.621" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.CircuitBreakerConfigOnMethodTest" name="testCircuitDefaultSuccessThreshold" time="0.621"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="20" name="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" time="0.484" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnMethod" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassAndMethodOverrideOnClassWithOverriddenMethod" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassNoRedefinition" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassAndMethod" time="0.026"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnMethodOverrideOnClassWithOverriddenMethod" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnMethodOverrideOnMethod" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassOverrideOnMethod" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassMissingOnOverriddenMethod" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassAndMethodMissingOnOverriddenMethod" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassOverrideOnClass" time="0.019"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnMethodOverrideOnClass" time="0.028"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassAndMethodOverrideOnMethod" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassAndMethodNoRedefinition" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClass" time="0.130"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassAndMethodOverrideOnClass" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="noSharingBetweenMethodsOfOneClass" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="noSharingBetweenClasses" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnMethodNoRedefinition" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnClassOverrideOnClassWithOverriddenMethod" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.circuitbreaker.lifecycle.CircuitBreakerLifecycleTest" name="circuitBreakerOnMethodMissingOnOverriddenMethod" time="0.018"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.config.BulkheadConfigTest" time="1.131" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.BulkheadConfigTest" name="testConfigValue" time="0.113"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.BulkheadConfigTest" name="testWaitingTaskQueue" time="1.018"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" time="6.303" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" name="testConfigureFailOn" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" name="testConfigureFailureRatio" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" name="testConfigureDelay" time="2.165"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" name="testConfigureRequestVolumeThreshold" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" name="testConfigureSuccessThreshold" time="4.058"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerConfigTest" name="testConfigureSkipOn" time="0.018"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerSkipOnConfigTest" time="0.108" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.CircuitBreakerSkipOnConfigTest" name="testConfigureSkipOn" time="0.108"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.config.ConfigPropertyGlobalVsClassTest" time="0.424" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.ConfigPropertyGlobalVsClassTest" name="propertyPriorityTest" time="0.424"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.config.ConfigPropertyGlobalVsClassVsMethodTest" time="0.303" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.ConfigPropertyGlobalVsClassVsMethodTest" name="propertyPriorityTest" time="0.303"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.config.ConfigPropertyOnClassAndMethodTest" time="0.493" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.ConfigPropertyOnClassAndMethodTest" name="propertyPriorityTest" time="0.493"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackApplyOnConfigTest" time="0.114" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackApplyOnConfigTest" name="testApplyOn" time="0.114"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="4" name="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest" time="0.132" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest" name="testFallbackMethod" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest" name="testFallbackHandler" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest" name="testSkipOn" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackConfigTest" name="testApplyOn" time="0.095"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackSkipOnConfigTest" time="0.114" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.FallbackSkipOnConfigTest" name="testSkipOn" time="0.114"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" time="1.673" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" name="testConfigMaxDuration" time="1.032"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" name="testConfigJitter" time="0.444"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" name="testConfigAbortOn" time="0.119"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" name="testConfigMaxRetries" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" name="testConfigDelay" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.RetryConfigTest" name="testConfigRetryOn" time="0.025"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.fault.tolerance.tck.config.TimeoutConfigTest" time="6.174" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.TimeoutConfigTest" name="testConfigUnit" time="2.021"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.TimeoutConfigTest" name="testConfigBoth" time="2.130"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.config.TimeoutConfigTest" name="testConfigValue" time="2.023"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" time="3.088" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" name="testAsync" time="2.116"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" name="testRetryEnabled" time="0.208"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" name="testFallbackEnabled" time="0.217"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" name="testBulkhead" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" name="testTimeout" time="0.516"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnClassTest" name="testCircuitBreaker" time="0.014"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" time="2.681" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" name="testAsync" time="2.120"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" name="testCircuitBreaker" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" name="testFallbackDisabled" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" name="testTimeout" time="0.515"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" name="testBulkhead" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyEnableOnMethodTest" name="testRetryEnabled" time="0.010"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" time="6.178" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" name="testFallbackDisabled" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" name="testCircuitClosedThenOpen" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" name="testTimeout" time="4.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" name="testRetryDisabled" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" name="testAsync" time="2.118"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationGloballyTest" name="testBulkhead" time="0.014"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" time="2.671" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" name="testFallbackDisabled" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" name="testAsync" time="2.106"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" name="testBulkhead" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" name="testTimeout" time="0.515"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" name="testCircuitBreaker" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassEnableOnMethodTest" name="testRetryEnabled" time="0.012"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" time="6.187" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" name="testRetryDisabled" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" name="testAsync" time="2.125"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" name="testTimeout" time="4.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" name="testBulkhead" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" name="testFallbackDisabled" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnClassTest" name="testCircuitClosedThenOpen" time="0.011"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" time="6.185" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" name="testAsync" time="2.119"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" name="testTimeout" time="4.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" name="testFallbackDisabled" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" name="testCircuitClosedThenOpen" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" name="testBulkhead" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableAnnotationOnMethodsTest" name="testRetryDisabled" time="0.009"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" time="2.704" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" name="testRetryEnabled" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" name="testAsync" time="2.127"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" name="testCircuitBreaker" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" name="testBulkhead" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" name="testFallbackEnabled" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableGloballyTest" name="testTimeout" time="0.514"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="6" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" time="2.838" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" name="testTimeout" time="0.524"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" name="testFallbackEnabled" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" name="testCircuitBreaker" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" name="testAsync" time="2.130"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" name="testBulkhead" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnClassTest" name="testRetryEnabled" time="0.145"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="5" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnMethodTest" time="2.806" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnMethodTest" name="testRetryEnabled" time="0.142"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnMethodTest" name="testTimeout" time="0.529"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnMethodTest" name="testAsync" time="2.106"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnMethodTest" name="testCircuitBreaker" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableFTEnableOnMethodTest" name="testBulkhead" time="0.018"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="4" name="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableTest" time="3.260" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableTest" name="testRetryDisabled" time="0.116"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableTest" name="testFallbackSuccess" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableTest" name="testCircuitClosedThenOpen" time="0.104"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.disableEnv.DisableTest" name="testTimeout" time="3.029"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodAbstractTest" time="0.139" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodAbstractTest" name="fallbackMethodAbstract" time="0.139"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodBasicTest" time="0.110" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodBasicTest" name="fallbackMethodBasic" time="0.110"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodDefaultMethodTest" time="0.121" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodDefaultMethodTest" name="fallbackMethodDefaultMethod" time="0.121"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericAbstractTest" time="0.109" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericAbstractTest" name="fallbackMethodGenericAbstract" time="0.109"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericArrayTest" time="0.125" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericArrayTest" name="fallbackMethodGenericArray" time="0.125"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericComplexTest" time="0.149" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericComplexTest" name="fallbackMethodGenericComplex" time="0.149"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericDeepTest" time="0.161" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericDeepTest" name="fallbackMethodGenericDeep" time="0.161"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericTest" time="0.145" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericTest" name="fallbackMethodGeneric" time="0.145"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericWildcardTest" time="0.129" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodGenericWildcardTest" name="fallbackMethodGenericWildcard" time="0.129"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodInPackageTest" time="0.144" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodInPackageTest" name="fallbackMethodInPackage" time="0.144"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodInterfaceTest" time="0.117" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodInterfaceTest" name="fallbackMethodInterface" time="0.117"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodOutOfPackageTest" time="0.012" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodOutOfPackageTest" name="fallbackMethodOutOfPackage" time="0.012"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodPrivateTest" time="0.131" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodPrivateTest" name="fallbackMethodPrivate" time="0.131"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSubclassOverrideTest" time="0.124" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSubclassOverrideTest" name="fallbackMethodSubclassOverride" time="0.124"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSubclassTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSubclassTest" name="fallbackMethodSubclass" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSuperclassPrivateTest" time="0.003" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSuperclassPrivateTest" name="fallbackMethodSuperclassPrivate" time="0.003"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSuperclassTest" time="0.123" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodSuperclassTest" name="fallbackMethodSuperclass" time="0.123"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodVarargsTest" time="0.144" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodVarargsTest" name="fallbackMethodVarargs" time="0.144"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodWildcardNegativeTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodWildcardNegativeTest" name="fallbackMethodWildcardNegative" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodWildcardTest" time="0.135" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.fallbackmethod.FallbackMethodWildcardTest" name="fallbackMethodWildcard" time="0.135"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.illegalConfig.IncompatibleFallbackMethodTest" time="0.000" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.illegalConfig.IncompatibleFallbackMethodTest" name="test" time="0.000"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.illegalConfig.IncompatibleFallbackMethodWithArgsTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.illegalConfig.IncompatibleFallbackMethodWithArgsTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.illegalConfig.IncompatibleFallbackTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.illegalConfig.IncompatibleFallbackTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.interceptor.FaultToleranceInterceptorTest" time="0.141" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.interceptor.FaultToleranceInterceptorTest" name="testAsync" time="0.107"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.interceptor.FaultToleranceInterceptorTest" name="testRetryInterceptors" time="0.034"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.interceptor.ftPriorityChange.FaultToleranceInterceptorPriorityChangeAnnotationConfTest" time="0.132" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.interceptor.ftPriorityChange.FaultToleranceInterceptorPriorityChangeAnnotationConfTest" name="testRetryInterceptors" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.interceptor.ftPriorityChange.FaultToleranceInterceptorPriorityChangeAnnotationConfTest" name="testAsync" time="0.121"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidAsynchronousClassTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidAsynchronousClassTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidAsynchronousMethodTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidAsynchronousMethodTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidBulkheadAsynchQueueTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidBulkheadAsynchQueueTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidBulkheadValueTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidBulkheadValueTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerDelayTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerDelayTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureRatioNegTest" time="0.003" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureRatioNegTest" name="test" time="0.003"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureRatioPosTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureRatioPosTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureReqVol0Test" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureReqVol0Test" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureReqVolNegTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureReqVolNegTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureSuccess0Test" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureSuccess0Test" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureSuccessNegTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidCircuitBreakerFailureSuccessNegTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryDelayDurationTest" time="0.000" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryDelayDurationTest" name="test" time="0.000"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryDelayTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryDelayTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryJitterTest" time="0.001" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryJitterTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryMaxRetriesTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidRetryMaxRetriesTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidTimeoutValueTest" time="0.002" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.invalidParameters.InvalidTimeoutValueTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.AllMetricsTest" time="0.190" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.AllMetricsTest" name="testMetricUnits" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.AllMetricsTest" name="testAllMetrics" time="0.173"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="4" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest" time="4.252" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest" name="bulkheadMetricRejectionTest" time="0.019"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest" name="bulkheadMetricHistogramTest" time="2.036"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest" name="bulkheadMetricAsyncTest" time="2.178"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.BulkheadMetricTest" name="bulkheadMetricTest" time="0.019"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.CircuitBreakerMetricTest" time="3.213" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.CircuitBreakerMetricTest" name="testCircuitBreakerMetric" time="3.213"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.ClashingNameTest" time="0.183" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.ClashingNameTest" name="testClashingName" time="0.183"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest" time="0.747" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest" name="testRetryMetricUnsuccessful" time="0.410"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest" name="testRetryMetricSuccessfulImmediately" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.ClassLevelMetricTest" name="testRetryMetricSuccessfulAfterRetry" time="0.319"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.FallbackMetricTest" time="0.150" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.FallbackMetricTest" name="fallbackMetricMethodTest" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.FallbackMetricTest" name="fallbackMetricHandlerTest" time="0.135"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.MetricsDisabledTest" time="0.152" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.MetricsDisabledTest" name="testMetricsDisabled" time="0.152"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="8" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" time="6.231" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricNonRetryableAfterRetries" time="0.267"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricMaxDuration" time="2.319"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricNonRetryableImmediately" time="0.048"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricMaxRetriesHitButNoRetry" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricSuccessfulImmediately" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricMaxRetries" time="0.360"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricMaxDurationNoRetries" time="3.028"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.RetryMetricTest" name="testRetryMetricSuccessfulAfterRetry" time="0.115"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.fault.tolerance.tck.metrics.TimeoutMetricTest" time="6.959" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.TimeoutMetricTest" name="testTimeoutHistogram" time="4.736"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.metrics.TimeoutMetricTest" name="testTimeoutMetric" time="2.223"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="17" name="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" time="3.319" errors="0" timestamp="2021-12-16T13:40:55 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROCMNoRedefinition" time="0.103"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROCM" time="0.035"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceRetryRemovedAtMethodLevel" time="0.190"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROMOverridedClassLevelMethodOverride" time="0.183"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceOverrideClassLevelUsesClassLevelAnnotationWithMethodOverride" time="0.326"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROMNoRedefinition" time="0.207"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROMOverridedClassLevelNoMethodOverride" time="0.204"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROM" time="0.044"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROMOverridedMethodLevel" time="0.228"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceDerivedClassNoRedefinition" time="0.245"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="baseRetryServiceUsesDefaults" time="0.464"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROCMOverridedClassLevelNoMethodOverride" time="0.046"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROCMRetryMissingOnMethod" time="0.196"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceOverrideClassLevelUsesClassLevelAnnotation" time="0.227"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROMRetryMissingOnMethod" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceBaseROCMOverridedClassLevelMethodOverride" time="0.532"/>
+    <testcase classname="org.eclipse.microprofile.fault.tolerance.tck.visibility.retry.RetryVisibilityTest" name="serviceOverrideMethodLevelUsesMethodLevelAnnotation" time="0.071"/>
+  </testsuite>
+</testsuites>
