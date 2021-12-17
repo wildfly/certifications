@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="372">
+  <testsuite hostname="localhost.localdomain" failures="0" tests="138" name="org.eclipse.microprofile.config.tck.ArrayConverterTest" time="4.627" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetDurationArrayConverter" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalTimeListLookupProgrammatically" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntegerArrayLookupProgrammatically" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanArrayInjection" time="0.232"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeArrayLookupProgrammatically" time="0.042"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateListInjection" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeListLookupProgrammatically" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantListInjection" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringArrayLookupProgrammatically" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalBooleanArrayLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testfloatArrayInjection" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationListInjection" time="0.046"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeListInjection" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalDateTimeArrayConverter" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetDateTimeListLookupProgrammatically" time="0.040"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetBooleanArrayConverter" time="0.050"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatArrayLookupProgrammatically" time="0.035"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantArrayInjection" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlArrayInjection" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeListLookupProgrammatically" time="0.042"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetUriArrayConverter" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateArrayLookupProgrammatically" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongListLookupProgrammatically" time="0.039"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalInstantListLookupProgrammatically" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeArrayInjection" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongSetInjection" time="0.037"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanListInjection" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetInstantArrayConverter" time="0.034"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetCustomTypeArrayConverter" time="0.045"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeArrayLookupProgrammatically" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateListLookupProgrammatically" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateArrayInjection" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetdoubleArrayConverter" time="0.038"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalCustomTypeListLookupProgrammatically" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeArrayInjection" time="0.075"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeSetInjection" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateSetInjection" time="0.041"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetOffsetDateTimeArrayConverter" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeListLookupProgrammatically" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetfloatArrayConverter" time="0.042"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringListLookupProgrammatically" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testURLSetInjection" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleListLookupProgrammatically" time="0.040"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationListLookupProgrammatically" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringArrayInjection" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntSetInjection" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeListInjection" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleSetInjection" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUrlArrayLookupProgrammatically" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalTimeArrayConverter" time="0.039"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanListLookupProgrammatically" time="0.070"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantArrayLookupProgrammatically" time="0.042"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUrlListLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDurationArrayLookupProgrammatically" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetlongArrayCoverter" time="0.038"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetUrlArrayConverter" time="0.042"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatSetInjection" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetOffsetTimeArrayConverter" time="0.037"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeArrayLookupProgrammatically" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDurationListLookupProgrammatically" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntegerListLookupProgrammatically" time="0.041"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlListLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeSetInjection" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testintArrayInjection" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeArrayInjection" time="0.033"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriArrayLookupProgrammatically" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetDateTimeListLookupProgrammatically" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUriArrayLookupProgrammatically" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalBooleanListLookupProgrammatically" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testURLListInjection" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongArrayLookupProgrammatically" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetDateTimeArrayLookupProgrammatically" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriArrayInjection" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeListInjection" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeArrayLookupProgrammatically" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalFloatArrayLookupProgrammatically" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeSetInjection" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalFloatListLookupProgrammatically" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeArrayLookupProgrammatically" time="0.043"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeListInjection" time="0.028"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetIntArrayConverter" time="0.042"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationArrayLookupProgrammatically" time="0.052"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongArrayInjection" time="0.030"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalIntegerListLookupProgrammatically" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatListLookupProgrammatically" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testBooleanArrayLookupProgrammatically" time="0.084"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetbooleanArrayConverter" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLongArrayCoverter" time="0.037"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateListLookupProgrammatically" time="0.030"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationSetInjection" time="0.039"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriSetInjection" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetFloatArrayConverter" time="0.047"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateTimeArrayLookupProgrammatically" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatListInjection" time="0.046"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testFloatArrayInjection" time="0.040"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntArrayInjection" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testlongArrayInjection" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalCustomTypeArrayLookupProgrammatically" time="0.040"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLongListInjection" time="0.030"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalUriListLookupProgrammatically" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDurationArrayInjection" time="0.037"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeArrayInjection" time="0.043"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleListInjection" time="0.048"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateArrayLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetDoubleArrayConverter" time="0.030"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLongArrayLookupProgrammatically" time="0.038"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanSetInjection" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testdoubleArrayInjection" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalIntegerArrayLookupProgrammatically" time="0.034"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDoubleArrayLookupProgrammatically" time="0.028"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetTimeListLookupProgrammatically" time="0.032"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringSetInjection" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testCustomTypeSetInjection" time="0.056"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testStringListInjection" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalDateTimeListLookupProgrammatically" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeArrayInjection" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalDateTimeListInjection" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriListLookupProgrammatically" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalOffsetTimeArrayLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOffsetTimeListLookupProgrammatically" time="0.038"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalDoubleListLookupProgrammatically" time="0.026"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLocalTimeArrayLookupProgrammatically" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantListLookupProgrammatically" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUrlArrayLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetIntegerArrayConverter" time="0.045"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalLongListLookupProgrammatically" time="0.033"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testUriListInjection" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testIntListInjection" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalStringListLookupProgrammatically" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalStringArrayLookupProgrammatically" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleArrayLookupProgrammatically" time="0.051"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testOptionalInstantArrayLookupProgrammatically" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testInstantSetInjection" time="0.026"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testbooleanArrayInjection" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testDoubleArrayInjection" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetStringArrayConverter" time="0.034"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testLocalTimeSetInjection" time="0.033"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ArrayConverterTest" name="testGetLocalDateArrayConverter" time="0.040"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" time="0.132" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConverterNotAddedAutomatically" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConfigureSources" time="0.099"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.AutoDiscoveredConfigSourceTest" name="testAutoDiscoveredConverterManuallyAdded" time="0.013"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="4" name="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" time="0.173" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectDynamicValuesViaCdiProvider" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectDefaultPropertyPath" time="0.126"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="canInjectSimpleValuesWhenDefined" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPlainInjectionTest" name="injectedValuesAreEqualToProgrammaticValues" time="0.013"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" time="0.127" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" name="expressionNoDefault" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyExpressionsTest" name="expression" time="0.116"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.CDIPropertyNameMatchingTest" time="0.100" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.CDIPropertyNameMatchingTest" name="testPropertyFromEnvironmentVariables" time="0.100"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" time="0.105" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" name="testOptionalInjection" time="0.093"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CdiOptionalInjectionTest" name="testOptionalInjectionWithNoDefaultValueOrElseIsReturned" time="0.012"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.config.tck.ClassConverterTest" time="0.112" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testClassConverterWithLookup" time="0.091"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testGetClassConverter" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ClassConverterTest" name="testConverterForClassLoadedInBean" time="0.010"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="7" name="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" time="0.174" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesWithPrefix" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testNoConfigPropertiesAnnotationInjection" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesWithoutPrefix" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesPlainInjection" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesNoPrefixOnBeanThenSupplyPrefix" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesNoPrefixOnBean" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigPropertiesTest" name="testConfigPropertiesDefaultOnBean" time="0.092"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="9" name="org.eclipse.microprofile.config.tck.ConfigProviderTest" time="0.207" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testInjectedConfigSerializable" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testNonExistingConfigKey" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testGetConfigSources" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testPropertyConfigSource" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testEnvironmentConfigSource" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testDynamicValueInPropertyConfigSource" time="0.101"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testGetPropertyNames" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testNonExistingConfigKeyGet" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigProviderTest" name="testJavaConfigPropertyFilesConfigSource" time="0.010"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.config.tck.ConfigValueTest" time="0.113" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValueEmpty" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValue" time="0.093"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConfigValueTest" name="configValueInjection" time="0.010"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="96" name="org.eclipse.microprofile.config.tck.ConverterTest" time="1.773" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDouble" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCharConverter" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testCustomConverter" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testShort_Broken" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testshort" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testZoneOffset" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetshortConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testfloat" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURLConverterBroken" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testFloat_Broken" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURLConverter" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCustomConverter" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetFloatConverter" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLongConverter_Broken" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetShortConverter" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetDateTime_Broken" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDonaldConverterWithLambdaConverter" time="0.027"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateConverter" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testFloat" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetDateTimeConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testChar" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLongConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntConverter" time="0.019"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntegerConverter" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testbyte" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetFloatConverter_Broken" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDate" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testNoDonaldConverterByDefault" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testShort" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetTimeConverter" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInstant_Broken" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDoubleConverter_Broken" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetcharConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetConverterSerialization" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURIConverterBroken" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetBooleanConverter" time="0.023"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDurationConverter_Broken" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateTimeConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetZoneOffsetConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetTime" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalTime" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetInstantConverter" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetDateTime" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDateTime_Broken" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDuckConverterWithMultipleConverters" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testChar_Broken" time="0.025"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetlongConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testConverterSerialization" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURIConverterBroken" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURLConverterBroken" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetByteConverter" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testByte" time="0.030"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldConversionWithLambdaConverter" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldConversionWithMultipleLambdaConverters" time="0.039"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLong_Broken" time="0.019"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testBoolean" time="0.110"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalTime_Broken" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetCharConverter_Broken" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInstant" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLong" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDateTime" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuration_Broken" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetByteConverter_Broken" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testOffsetTime_Broken" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testByte_Broken" time="0.031"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testURIConverter" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalTimeConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetShortConverter_Broken" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetTimeConverter_Broken" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalTimeConverter_Broken" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDurationCoverter" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDonaldNotConvertedByDefault" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testchar" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInt" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDoubleConverter" time="0.019"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInteger" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetdoubleConverter" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetbyteConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDouble_Broken" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateTimeConverter_Broken" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testZoneOffset_Broken" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetLocalDateConverter_Broken" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetZoneOffsetConverter_Broken" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetfloatConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURLConverter" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testdouble" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuration" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetURIConverter" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetInstantConverter_Broken" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testInteger_Broken" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testDuckConversionWithMultipleConverters" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetDonaldConverterWithMultipleLambdaConverters" time="0.024"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testlong" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testLocalDate_Broken" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetOffsetDateTimeConverter_Broken" time="0.026"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ConverterTest" name="testGetIntegerConverter_Broken" time="0.014"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.CustomConfigSourceTest" time="0.091" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConfigSourceTest" name="testConfigSourceProvider" time="0.091"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="20" name="org.eclipse.microprofile.config.tck.CustomConverterTest" time="0.335" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testBoolean" time="0.105"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testCharacter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetDoublePrimitiveConverter" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetIntegerConverter" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testBooleanPrimitive" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testDouble" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testLong" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testIntPrimitive" time="0.008"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testInteger" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetLongPrimitiveConverter" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetCharacterConverter" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetBooleanPrimitiveConverter" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetBooleanConverter" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetIntPrimitiveConverter" time="0.008"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetDoubleConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testCharPrimitive" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testLongPrimitive" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetLongConverter" time="0.008"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testGetCharPrimitiveConverter" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.CustomConverterTest" name="testDoublePrimitive" time="0.015"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="19" name="org.eclipse.microprofile.config.tck.ImplicitConverterTest" time="0.289" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringValueOfConverter" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterEnumValueOfConverter" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringValueOf" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterCharSequenceParseJavaTimeConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceParseBeforeConstructorConverter" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceValueOfBeforeParseConverter" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterEnumValueOf" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringOf" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParseJavaTimeInjection" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParse" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceParseBeforeConstructor" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterStringCt" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceOfBeforeValueOf" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringCtConverter" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterStringOfConverter" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterCharSequenceParseJavaTime" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterCharSequenceParseConverter" time="0.093"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testImplicitConverterSquenceValueOfBeforeParse" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.ImplicitConverterTest" name="testGetImplicitConverterSquenceOfBeforeValueOfConverter" time="0.013"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="16" name="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" time="0.307" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="multipleExpansions" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="multipleExpressions" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="escape" time="0.009"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionComposed" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionComposedEmpty" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="infiniteExpansion" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="arrayEscapes" time="0.107"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="expressionMissing" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="simpleExpression" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="escapeBraces" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="withoutExpansion" time="0.022"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpressionEmpty" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="noExpressionComposed" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="composedExpressions" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="defaultExpression" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.PropertyExpressionsTest" name="noExpression" time="0.015"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.WarPropertiesLocationTest" time="0.092" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.WarPropertiesLocationTest" name="testReadPropertyInWar" time="0.092"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.broken.ConfigPropertiesMissingPropertyInjectionTest" time="0.001" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.broken.ConfigPropertiesMissingPropertyInjectionTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.broken.MissingConverterOnInstanceInjectionTest" time="0.001" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingConverterOnInstanceInjectionTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.broken.MissingValueOnInstanceInjectionTest" time="0.001" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingValueOnInstanceInjectionTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.broken.MissingValueOnObserverMethodInjectionTest" time="0.002" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.broken.MissingValueOnObserverMethodInjectionTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.broken.WrongConverterOnInstanceInjectionTest" time="0.001" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.broken.WrongConverterOnInstanceInjectionTest" name="test" time="0.001"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="2" name="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" time="0.233" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" name="testOrdinalForSystemProps" time="0.036"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.configsources.DefaultConfigSourceOrdinalTest" name="testOrdinalForEnv" time="0.197"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.converters.NullConvertersTest" time="0.141" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.converters.NullConvertersTest" name="nulls" time="0.141"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueBrokenInjectionTest" time="0.013" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueBrokenInjectionTest" name="test" time="0.013"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="3" name="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" time="0.179" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testGetOptionalValue" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testDefaultValueNotUsed" time="0.140"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.converters.convertToNull.ConvertedNullValueTest" name="testGetValue" time="0.021"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTest" time="0.002" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTest" name="test" time="0.002"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="28" name="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" time="0.511" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetOptionalValueAsArrayOrList" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetValue" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetOptionalValues" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetValue" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetOptionalValues" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetOptionalValue" time="0.104"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetOptionalValue" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetValue" time="0.011"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetValueArray" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetValueArray" time="0.029"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetOptionalValue" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetOptionalValues" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testSpaceStringGetValueArray" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetValue" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetValueArray" time="0.020"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetOptionalValues" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetValueArray" time="0.015"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testDoubleCommaStringGetValueArray" time="0.016"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooBarStringGetValueArray" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetOptionalValue" time="0.014"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetOptionalValue" time="0.017"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testFooCommaStringGetValue" time="0.010"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetValue" time="0.013"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testEmptyStringGetValueArray" time="0.021"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testBackslashCommaStringGetValue" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaStringGetValue" time="0.012"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testMissingStringGetValue" time="0.018"/>
+    <testcase classname="org.eclipse.microprofile.config.tck.emptyvalue.EmptyValuesTestProgrammaticLookup" name="testCommaBarStringGetValueArray" time="0.015"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest" time="0.110" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.profile.ConfigPropertyFileProfileTest" name="testConfigProfileWithDev" time="0.110"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.profile.DevConfigProfileTest" time="0.122" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.profile.DevConfigProfileTest" name="testConfigProfileWithDev" time="0.122"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.profile.InvalidConfigProfileTest" time="0.100" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.profile.InvalidConfigProfileTest" name="testConfigProfileWithDev" time="0.100"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.profile.ProdProfileTest" time="0.101" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.profile.ProdProfileTest" name="testConfigProfileWithDev" time="0.101"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.profile.TestConfigProfileTest" time="0.104" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.profile.TestConfigProfileTest" name="testConfigProfileWithDev" time="0.104"/>
+  </testsuite>
+  <testsuite hostname="localhost.localdomain" failures="0" tests="1" name="org.eclipse.microprofile.config.tck.profile.TestCustomConfigProfile" time="0.100" errors="0" timestamp="2021-12-16T13:33:35 CST" skipped="0">
+    <testcase classname="org.eclipse.microprofile.config.tck.profile.TestCustomConfigProfile" name="testConfigProfileWithDev" time="0.100"/>
+  </testsuite>
+</testsuites>

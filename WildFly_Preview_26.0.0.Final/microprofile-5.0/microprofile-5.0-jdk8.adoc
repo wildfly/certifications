@@ -1,0 +1,90 @@
+= Platform TCK Test results JDK 8
+
+== Environment
+
+[source,bash]
+----
+$ java -version
+openjdk version "1.8.0_292"
+OpenJDK Runtime Environment (build 1.8.0_292-b10)
+OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)
+
+$ mvn --version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /opt/maven/apache-maven-3.8.1
+Java version: 1.8.0_292, vendor: Red Hat, Inc., runtime: /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "5.8.16-200.fc32.x86_64", arch: "amd64", family: "unix"
+----
+
+== MicroProfile Config 3.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-config.xml[]
+----
+
+== MicroProfile Fault Tolerance 4.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-fault-tolerance.xml[]
+----
+
+== MicroProfile Health 4.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-health.xml[]
+----
+
+== MicroProfile JWT Authentication 2.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-jwt.xml[]
+----
+
+== MicroProfile Metrics 4.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-metrics.xml[]
+----
+
+== MicroProfile OpenAPI 2.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-openapi.xml[]
+----
+
+== MicroProfile OpenTracing 3.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-opentracing.xml[]
+----
+
+== MicroProfile Rest Client 3.0
+
+Test results:
+
+[source,xml]
+----
+include::se8/results-rest-client.xml[]
+----
