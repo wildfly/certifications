@@ -615,6 +615,7 @@ https://download.eclipse.org/jakartaee/cdi/2.0/cdi-tck-2.0.6-dist.zip[cdi-tck-2.
 TCK result summary:
 ----
 Tests run: 1807, Failures: 0, Errors: 0, Skipped: 0
+----
 
 Jakarta Bean Validation 2.0 TCK
 
