@@ -1,0 +1,585 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+[[introduction]]
+== Introduction
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform 9.1.
+
+
+=== WildFly Preview Full Platform, Certification Summary
+----
+Date:  May 19, 2022
+Product Name, Version: WildFly Preview 26.1.1.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE 9.1 Full Platform Specification
+Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM 18.9 (build 11.0.12+7-LTS, mixed mode)
+OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
+Database version:   Apache Derby Network Server 10.15.2.0
+Database JDBC Driver and version:  Apache Derby 10.15.2.0
+----
+Specification Name, Version and download URL:
+https://jakarta.ee/specifications/platform/9.1[Jakarta EE Platform, 9.1]
+
+TCK Version, digital SHA-256 fingerprint and download URL:
+https://download.eclipse.org/jakartaee/platform/9.1/jakarta-jakartaeetck-9.1.0.zip[Jakarta EE Platform TCK 9.1.0, 16904b7ccd7ae61287b763587e8bfbff50608ab09f3876bb41af65d043263ca7 ]
+
+Public URL of TCK Results Summary: 
+https://github.com/wildfly/certifications/blob/EE9.1/WildFly_Preview_26.1.1.Final/jakarta-full-platform.adoc#tck-results[WildFly 26.1.1.Final TCK results]
+
+Any Additional Specification Certification Requirements:
+----
+Jakarta Dependency Injection 2.0.1 TCK
+Jakarta Contexts and Dependency Injection 3.0.1 TCK
+Jakarta Bean Validation 3.0.0 TCK
+Jakarta XML Binding 3.0.1 TCK
+----
+
+=== Platform TCK Test results
+Test results:
+----
+Test name: appclient
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: assembly
+[javatest.batch] Completed running 30 tests.
+[javatest.batch] Number of Tests Passed      = 30
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: batch
+[javatest.batch] Completed running 322 tests.
+[javatest.batch] Number of Tests Passed      = 322
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: concurrency
+[javatest.batch] Completed running 205 tests.
+[javatest.batch] Number of Tests Passed      = 205
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: connector
+[javatest.batch] Completed running 477 tests.
+[javatest.batch] Number of Tests Passed      = 477
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_assembly
+[javatest.batch] Completed running 51 tests.
+[javatest.batch] Number of Tests Passed      = 51
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_bb
+[javatest.batch] Completed running 1093 tests.
+[javatest.batch] Number of Tests Passed      = 1093
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_lite
+[javatest.batch] Completed running 1873 tests.
+[javatest.batch] Number of Tests Passed      = 1873
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_misc
+[javatest.batch] Completed running 100 tests.
+[javatest.batch] Number of Tests Passed      = 100
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_sec
+[javatest.batch] Completed running 99 tests.
+[javatest.batch] Number of Tests Passed      = 99
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_timer
+[javatest.batch] Completed running 178 tests.
+[javatest.batch] Number of Tests Passed      = 178
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_tx
+[javatest.batch] Completed running 81 tests.
+[javatest.batch] Number of Tests Passed      = 81
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_webservice
+[javatest.batch] Completed running 3 tests.
+[javatest.batch] Number of Tests Passed      = 3
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb32
+[javatest.batch] Completed running 704 tests.
+[javatest.batch] Number of Tests Passed      = 704
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: el
+[javatest.batch] Completed running 667 tests.
+[javatest.batch] Number of Tests Passed      = 667
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: integration
+[javatest.batch] Completed running 15 tests.
+[javatest.batch] Number of Tests Passed      = 15
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jacc_ejb
+[javatest.batch] Completed running 16 tests.
+[javatest.batch] Number of Tests Passed      = 16
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jacc_web
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jaspic
+[javatest.batch] Completed running 61 tests.
+[javatest.batch] Number of Tests Passed      = 61
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: javaee
+[javatest.batch] Completed running 24 tests.
+[javatest.batch] Number of Tests Passed      = 24
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: javamail
+[javatest.batch] Completed running 112 tests.
+[javatest.batch] Number of Tests Passed      = 112
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jaxrs
+[javatest.batch] Completed running 2803 tests.
+[javatest.batch] Number of Tests Passed      = 2803
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_batchUpdate
+[javatest.batch] Completed running 68 tests.
+[javatest.batch] Number of Tests Passed      = 68
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_callStmt
+[javatest.batch] Completed running 1592 tests.
+[javatest.batch] Number of Tests Passed      = 1592
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_connection
+[javatest.batch] Completed running 36 tests.
+[javatest.batch] Number of Tests Passed      = 36
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_dateTime
+[javatest.batch] Completed running 152 tests.
+[javatest.batch] Number of Tests Passed      = 152
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_dbMeta
+[javatest.batch] Completed running 940 tests.
+[javatest.batch] Number of Tests Passed      = 940
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_escapeSyntax
+[javatest.batch] Completed running 324 tests.
+[javatest.batch] Number of Tests Passed      = 324
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_exception
+[javatest.batch] Completed running 56 tests.
+[javatest.batch] Number of Tests Passed      = 56
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_prepStmt
+[javatest.batch] Completed running 1084 tests.
+[javatest.batch] Number of Tests Passed      = 1084
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_resultSet
+[javatest.batch] Completed running 456 tests.
+[javatest.batch] Number of Tests Passed      = 456
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_rsMeta
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_stmt
+[javatest.batch] Completed running 132 tests.
+[javatest.batch] Number of Tests Passed      = 132
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jms_core
+[javatest.batch] Completed running 2379 tests.
+[javatest.batch] Number of Tests Passed      = 2379
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jms_core20
+[javatest.batch] Completed running 852 tests.
+[javatest.batch] Number of Tests Passed      = 852
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jms_ee
+[javatest.batch] Completed running 207 tests.
+[javatest.batch] Number of Tests Passed      = 207
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jms_ee20
+[javatest.batch] Completed running 72 tests.
+[javatest.batch] Number of Tests Passed      = 72
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_StoredProcedureQuery
+[javatest.batch] Completed running 226 tests.
+[javatest.batch] Number of Tests Passed      = 226
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_annotations
+[javatest.batch] Completed running 902 tests.
+[javatest.batch] Number of Tests Passed      = 902
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_basic
+[javatest.batch] Completed running 12 tests.
+[javatest.batch] Number of Tests Passed      = 12
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_cache
+[javatest.batch] Completed running 20 tests.
+[javatest.batch] Number of Tests Passed      = 20
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_callback
+[javatest.batch] Completed running 396 tests.
+[javatest.batch] Number of Tests Passed      = 396
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_CriteriaBuilder
+[javatest.batch] Completed running 930 tests.
+[javatest.batch] Number of Tests Passed      = 930
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_CriteriaDelete
+[javatest.batch] Completed running 42 tests.
+[javatest.batch] Number of Tests Passed      = 42
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_CriteriaQuery
+[javatest.batch] Completed running 228 tests.
+[javatest.batch] Number of Tests Passed      = 228
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_CriteriaUpdate
+[javatest.batch] Completed running 60 tests.
+[javatest.batch] Number of Tests Passed      = 60
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_From
+[javatest.batch] Completed running 174 tests.
+[javatest.batch] Number of Tests Passed      = 174
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_Join
+[javatest.batch] Completed running 210 tests.
+[javatest.batch] Number of Tests Passed      = 210
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_Root
+[javatest.batch] Completed running 156 tests.
+[javatest.batch] Number of Tests Passed      = 156
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_metamodelquery
+[javatest.batch] Completed running 906 tests.
+[javatest.batch] Number of Tests Passed      = 906
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_misc
+[javatest.batch] Completed running 204 tests.
+[javatest.batch] Number of Tests Passed      = 204
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_parameter
+[javatest.batch] Completed running 48 tests.
+[javatest.batch] Number of Tests Passed      = 48
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_criteriaapi_strquery
+[javatest.batch] Completed running 774 tests.
+[javatest.batch] Number of Tests Passed      = 774
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_derivedid
+[javatest.batch] Completed running 72 tests.
+[javatest.batch] Number of Tests Passed      = 72
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_entitytest
+[javatest.batch] Completed running 1465 tests.
+[javatest.batch] Number of Tests Passed      = 1465
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_enums
+[javatest.batch] Completed running 317 tests.
+[javatest.batch] Number of Tests Passed      = 317
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_exceptions
+[javatest.batch] Completed running 34 tests.
+[javatest.batch] Number of Tests Passed      = 34
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_inheritance
+[javatest.batch] Completed running 60 tests.
+[javatest.batch] Number of Tests Passed      = 60
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_lock
+[javatest.batch] Completed running 34 tests.
+[javatest.batch] Number of Tests Passed      = 34
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_metamodelapi
+[javatest.batch] Completed running 1554 tests.
+[javatest.batch] Number of Tests Passed      = 1554
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_nestedembedding
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_override
+[javatest.batch] Completed running 156 tests.
+[javatest.batch] Number of Tests Passed      = 156
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_persistenceUtil
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_persistenceUtilUtil
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_query
+[javatest.batch] Completed running 1220 tests.
+[javatest.batch] Number of Tests Passed      = 1220
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_relationship
+[javatest.batch] Completed running 198 tests.
+[javatest.batch] Number of Tests Passed      = 198
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_types
+[javatest.batch] Completed running 300 tests.
+[javatest.batch] Number of Tests Passed      = 300
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core_versioning
+[javatest.batch] Completed running 6 tests.
+[javatest.batch] Number of Tests Passed      = 6
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_ee
+[javatest.batch] Completed running 181 tests.
+[javatest.batch] Number of Tests Passed      = 181
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_jpa22
+[javatest.batch] Completed running 100 tests.
+[javatest.batch] Number of Tests Passed      = 100
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsf
+[javatest.batch] Completed running 5526 tests.
+[javatest.batch] Number of Tests Passed      = 5526
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsonb
+[javatest.batch] Completed running 1062 tests.
+[javatest.batch] Number of Tests Passed      = 1062
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsonp
+[javatest.batch] Completed running 744 tests.
+[javatest.batch] Number of Tests Passed      = 744
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsp
+[javatest.batch] Completed running 730 tests.
+[javatest.batch] Number of Tests Passed      = 730
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jstl
+[javatest.batch] Completed running 541 tests.
+[javatest.batch] Number of Tests Passed      = 541
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jta
+[javatest.batch] Completed running 195 tests.
+[javatest.batch] Number of Tests Passed      = 195
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: securityapi
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: servlet
+[javatest.batch] Completed running 1720 tests.
+[javatest.batch] Number of Tests Passed      = 1720
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: signaturetest_javaee
+[javatest.batch] Completed running 4 tests.
+[javatest.batch] Number of Tests Passed      = 4
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: webservices12
+[javatest.batch] Completed running 242 tests.
+[javatest.batch] Number of Tests Passed      = 242
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: webservices13
+[javatest.batch] Completed running 53 tests.
+[javatest.batch] Number of Tests Passed      = 53
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: websocket
+[javatest.batch] Completed running 745 tests.
+[javatest.batch] Number of Tests Passed      = 745
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: xa
+[javatest.batch] Completed running 66 tests.
+[javatest.batch] Number of Tests Passed      = 66
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+----
+
+=== Additional standalone TCK Test results
+Standalone test results:
+
+Jakarta Dependency Injection 2.0.1 TCK
+
+Download URL & SHA-256:
+https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.1-bin.zip[jakarta.inject-tck-2.0.1-bin.zip, 7853d02d372838f8300f5a18cfcc23011c9eb9016cf3980bba9442e4b1f8bfc6 ]
+
+TCK result summary:
+----
+Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+----
+
+Jakarta Contexts and Dependency Injection 3.0.1 TCK
+
+Download URL & SHA-256
+https://download.eclipse.org/jakartaee/cdi/3.0/cdi-tck-3.0.1-dist.zip[cdi-tck-3.0.1-dist.zip, f0a3bdd81ea552ddf2c2a6cd2576f0d5ca45026665cb4a5c42606a58bf1c133d ]
+
+TCK result summary:
+----
+Tests run: 1796, Failures: 0, Errors: 0, Skipped: 0
+----
+
+Jakarta Bean Validation 3.0.0 TCK
+
+Download URL & SHA-256
+https://download.eclipse.org/jakartaee/bean-validation/3.0/beanvalidation-tck-dist-3.0.0.zip[beanvalidation-tck-dist-3.0.0.zip, c975fd229df0c40947a9f0a69b779ec92bebb3d21e05fdc65fccc1d11ef5525b ]
+
+TCK result summary:
+----
+Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0 
+----
+
+Jakarta XML Binding 3.0.1 TCK
+
+Download URL & SHA-256
+https://download.eclipse.org/jakartaee/xml-binding/3.0/jakarta-xml-binding-tck-3.0.1.zip, a9356a2eb989e8cb7f663ed5fd244d8e2d222e2c4108c40c65001bec90f40baf ]
+
+TCK result summary:
+----
+Pass: 24,628  Fail: 0  Error: 0  Not-Run: 0
+----
