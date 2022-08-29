@@ -12,7 +12,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 === WildFly Preview Web Profile, Certification Summary
 ----
 Date:  August 30, 2022
-Product Name, Version: WildFly 27.0.0.Final
+Product Name, Version: WildFly 27.0.0.Alpha5
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 10 Web Profile Specification
@@ -28,7 +28,7 @@ TCK Version, digital SHA-256 fingerprint and download URL:
 https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee10/staged/eftl/jakarta-jakartaeetck-10.0.0.zip[Jakarta EE Platform TCK 10, 7874244f69ed9c72f4d4b5a8c48b21d39c56f4b877b1d4d735247a7f08215a5e  ]
 
 Public URL of TCK Results Summary: 
-https://github.com/wildfly/certifications/blob/EE10/WildFly_27.0.0.Final/jakarta-web-profile.adoc#tck-results[WildFly 27.0.0.Final TCK results]
+https://github.com/wildfly/certifications/blob/EE10/WildFly_27.0.0.Alpha5/jakarta-web-profile.adoc#tck-results[WildFly 27.0.0.Alpha5 TCK results]
 
 - [X] Any Additional Specification Certification Requirements:
   
@@ -202,14 +202,36 @@ Test name: websocket
 
 === Additional standalone TCK Test results
 
-  [Jakarta Activation 2.1 TCK](https://download.eclipse.org/jakartaee/activation/2.1/jakarta-activation-tck-2.1.0.zip), 
-  SHA-256: `6c4aad27e45761dd9f3e0f8506f37edea41f42401465db750689145718b27a0b` <br/>
+[Jakarta Activation 2.1 TCK](https://download.eclipse.org/jakartaee/activation/2.1/jakarta-activation-tck-2.1.0.zip), 
+SHA-256: `6c4aad27e45761dd9f3e0f8506f37edea41f42401465db750689145718b27a0b` <br/>
+
+[javatest.batch] Number of tests completed:  91 (91 pass, 0 fail, 0 errors)
+[javatest.batch] ***************************************************************
+[javatest.batch] Completed running 91 tests.
+[javatest.batch] Number of Tests Passed      = 91
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+[javatest.batch] Number of Tests Not Run     = 0
+
   [Jakarta Authentication 3.0.1 TCK](https://download.eclipse.org/jakartaee/authentication/3.0/jakarta-authentication-tck-3.0.1.zip), 
   SHA-256: `8b916f1b4aed828337bd88b34bb39b133f04611c2dfe71541c2ec5d2dd22cd54` <br/>
+
+  failures=0 errors=0 standaloneauthenticationTests=70
+  old authenticationPassingCount = 61
+  old authenticationFailCount = 0
+
   [Jakarta Batch 2.1.1 TCK](https://download.eclipse.org/jakartaee/batch/2.1/jakarta.batch.official.tck-2.1.1.zip), 
   SHA-256: `0dd8ca0f35cc696ea86d0dffaa1301cf2786806832ea1b2a491d528eaa57b3b7` <br/>
+Jakarta Batch TCK completed running 386 tests.
+Number of Tests Passed      = 386
+Number of Tests with Errors = 0
+Number of Tests Failed      = 0
+Number of Tests Skipped     = 12
+        
   [Jakarta Bean Validation 3.0.1 TCK](https://download.eclipse.org/jakartaee/bean-validation/3.0/beanvalidation-tck-dist-3.0.1.zip), 
   SHA-256: `9da36d2d6e2eb8d413f886f15711820008419d210ce4c51af04f96e1ffd583b3` <br/>
+  
+  
   [Jakarta Concurrency 3.0.0 TCK](https://download.eclipse.org/jakartaee/concurrency/3.0/concurrency-tck-3.0.2.zip),
   SHA-256: `22728d729f620d6a85ae903e7d1184e0a7508a4328491b785f1b4f3d7215ca93` <br/>
   [Jakarta Contexts and Dependency Injection 4.0.5 TCK](https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.5-dist.zip), 
