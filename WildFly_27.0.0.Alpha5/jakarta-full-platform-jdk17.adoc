@@ -6,7 +6,7 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 
 [[introduction]]
 == Introduction
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform 9.1.
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform 10.
 
 
 === WildFly Full Platform, Certification Summary
