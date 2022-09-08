@@ -67,10 +67,10 @@ Java SE provider and Version tested with:  OpenJDK $(parseJDKVersions $@)
 OS version: $(uname -sro)
 ----
 Specification Name, Version and download URL:
-https://download.eclipse.org/microprofile/microprofile-${MP_VERSION}/microprofile-spec-${MP_VERSION};.pdf[MicroProfile ${MP_VERSION}]
+https://download.eclipse.org/microprofile/microprofile-${MP_VERSION}/microprofile-spec-${MP_VERSION}.pdf[MicroProfile ${MP_VERSION}]
 
 Public URL of TCK Results Summary:
-https://github.com/wildfly/certifications/blob/MP$MP_VERSION/WildFly_$WFLY_VERSION/microprofile-$MP_VERSION/microprofile-full-platform.adoc[WildFly $WFLY_VERSION TCK results]
+https://github.com/wildfly/certifications/blob/MP$MP_VERSION/WildFly_$WFLY_VERSION/microprofile-$MP_VERSION/microprofile-${MP_VERSION}-full-certification.adoc[WildFly $WFLY_VERSION TCK results]
 
 === Platform TCK Test Results
 

@@ -20,10 +20,10 @@ Java SE provider and Version tested with:  OpenJDK 1.8.0_332 11.0.15 17.0.4
 OS version: Linux 5.18.13-200.fc36.x86_64 GNU/Linux
 ----
 Specification Name, Version and download URL:
-https://download.eclipse.org/microprofile/microprofile-4.1/microprofile-spec-4.1;.pdf[MicroProfile 4.1]
+https://download.eclipse.org/microprofile/microprofile-4.1/microprofile-spec-4.1.pdf[MicroProfile 4.1]
 
 Public URL of TCK Results Summary:
-https://github.com/wildfly/certifications/blob/MP4.1/WildFly_26.1.2.Final/microprofile-4.1/microprofile-full-platform.adoc[WildFly 26.1.2.Final TCK results]
+https://github.com/wildfly/certifications/blob/MP4.1/WildFly_26.1.2.Final/microprofile-4.1/microprofile-4.1-full-certification.adoc[WildFly 26.1.2.Final TCK results]
 
 === Platform TCK Test Results
 
