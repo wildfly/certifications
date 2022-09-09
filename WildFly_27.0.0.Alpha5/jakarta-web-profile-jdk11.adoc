@@ -11,7 +11,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Preview Web Profile, Certification Summary
 ----
-Date:  September 9, 2022
+Date:  September 10, 2022
 Product Name, Version: WildFly 27.0.0.Alpha5
 URL to product download page: https://wildfly.org/downloads
 
