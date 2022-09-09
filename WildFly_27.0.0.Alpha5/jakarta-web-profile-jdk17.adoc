@@ -11,7 +11,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Preview Web Profile, Certification Summary
 ----
-Date:  August 30, 2022
+Date:  September 9, 2022
 Product Name, Version: WildFly 27.0.0.Alpha5
 URL to product download page: https://wildfly.org/downloads
 
@@ -271,6 +271,6 @@ Number of Tests with Errors = 0
 [Jakarta XML Binding 4.0.0 TCK](https://download.eclipse.org/jakartaee/xml-binding/4.0/jakarta-xml-binding-tck-4.0.0.zip), 
 SHA-256: `33fa6a39e6ac6b767316efc2f71fed3577c3d364dd1f532d410915c30a0b5b67` <br/>
 
+Test results: passed: 24,610; failed: 16
 
-Pass: 24,626  Fail: 0  Error: 0  Not-Run: 0  
-
+The 16 failing tests were passing but now failing due to reasons mentioned in TCK challenge https://github.com/eclipse-ee4j/jaxb-tck/issues/78 (due to www.w3.org redirect from http to https).
