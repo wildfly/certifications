@@ -30,8 +30,8 @@ https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee10/staged/eftl/jakarta-
 Public URL of TCK Results Summary: 
 https://github.com/wildfly/certifications/blob/EE10/WildFly_27.0.0.Alpha5/jakarta-web-profile-jdk11.adoc#tck-results[WildFly 27.0.0.Alpha5 TCK results]
 
-- [X] Any Additional Specification Certification Requirements:
-  
+Any Additional Specification Certification Requirements:
+----  
 * Jakarta Authentication
 * Jakarta Bean Validation
 * Jakarta Concurrency
