@@ -28,7 +28,7 @@ TCK Version, digital SHA-256 fingerprint and download URL:
 https://download.eclipse.org/ee4j/jakartaee-tck/jakartaee10/staged/eftl/jakarta-jakartaeetck-10.0.0.zip[Jakarta EE Platform TCK 10, 7874244f69ed9c72f4d4b5a8c48b21d39c56f4b877b1d4d735247a7f08215a5e  ]
 
 Public URL of TCK Results Summary: 
-https://github.com/wildfly/certifications/blob/EE10/WildFly_27.0.0.Alpha5/jakarta-web-profile.adoc#tck-results[WildFly 27.0.0.Alpha5 TCK results]
+https://github.com/wildfly/certifications/blob/EE10/WildFly_27.0.0.Alpha5/jakarta-web-profile-jdk11.adoc#tck-results[WildFly 27.0.0.Alpha5 TCK results]
 
 - [X] Any Additional Specification Certification Requirements:
   
