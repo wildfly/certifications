@@ -302,8 +302,8 @@ SHA-256: `696776046dfeaed74266a5d1c4dac7fea5437b6f51743b7fe10962dde755ff8f`
 
 TCK result summary:
 ----
-Completed running 117 tests.
-Number of Tests Failed      = 2 (two test failures are challenged via https://github.com/jakartaee/security/issues/270)
+Completed running 115 tests.
+Number of Tests Failed      = 0
 Number of Tests with Errors = 0
 ----
 ----
@@ -312,6 +312,8 @@ Number of Tests with Errors = 0
 [javatest.batch] Number of Tests Failed      = 0
 [javatest.batch] Number of Tests with Errors = 0
 ----
+
+(Two tests were excluded due to the challenge at https://github.com/jakartaee/security/issues/270.)
 
 https://download.eclipse.org/jakartaee/xml-binding/4.0/jakarta-xml-binding-tck-4.0.0.zip[Jakarta XML Binding 4.0.0 TCK]
 
