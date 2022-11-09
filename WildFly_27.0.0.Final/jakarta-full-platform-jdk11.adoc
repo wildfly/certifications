@@ -267,6 +267,10 @@ Test name: jpa_core_StoredProcedureQuery
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: jpa_core_annotations
+[javatest.batch] Completed running 980 tests.
+[javatest.batch] Number of Tests Passed      = 980
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
 
 Test name: jpa_core_basic
 [javatest.batch] Completed running 12 tests.
@@ -579,7 +583,7 @@ SHA-256: `22728d729f620d6a85ae903e7d1184e0a7508a4328491b785f1b4f3d7215ca93`
 TCK result summary:
 ----
 [INFO] Running TestSuite
-[INFO] Tests run: 149, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 177.143 s - in TestSuit
+[INFO] Tests run: 149, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 177.143 s - in TestSuite
 ----
 
 https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.5-dist.zip[Jakarta Contexts and Dependency Injection 4.0.5 TCK]
@@ -634,13 +638,13 @@ https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.0.zip[Jak
 
 SHA-256: `6ee953382ff965627fe20dd7e3bfce6c968ed829d611cf4990988ab54bfe8b54`
 
-Includes already certified [Eclipse Parsson 1.1.0](https://github.com/eclipse-ee4j/parsson/releases/tag/1.1.0)
+Includes already certified [Eclipse Parsson 1.1.1](https://github.com/eclipse-ee4j/parsson/releases/tag/1.1.1)
 
 https://download.eclipse.org/jakartaee/mail/2.1/jakarta-mail-tck-2.1.0.zip[Jakarta Mail 2.1.0 TCK] 
 
 SHA-256: `6f02a92e0a5ef60260e65f95938cc566da2f93a3d269c3b321da0d787a3448a5`
 
-Includes already certified [Eclipse Angus Mail 1.1.0](https://github.com/eclipse-ee4j/angus-mail/releases/tag/1.0.0)
+Includes already certified [Eclipse Angus Mail 1.0.0](https://github.com/eclipse-ee4j/angus-mail/releases/tag/1.0.0)
 
 https://download.eclipse.org/jakartaee/restful-ws/3.1/jakarta-restful-ws-tck-3.1.0.zip[Jakarta RESTful Web Services 3.1.0 TCK]
 
