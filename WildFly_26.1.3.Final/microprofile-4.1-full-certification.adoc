@@ -1,0 +1,32 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+[[introduction]]
+== Introduction
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for the release of https://github.com/eclipse/microprofile/releases/tag/4.1[MicroProfile 4.1].
+
+=== WildFly Full Platform, Certification Summary
+----
+Date:  Mon Jan 23 09:20:41 AM CET 2023
+Product Name:  WildFly
+Product Version: WildFly 26.1.3.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE Full Platform, Web Profile, and MicroProfile Specifications
+Java SE provider and Version tested with:  OpenJDK 1.8.0_332 11.0.15 17.0.4 
+OS version: Linux 5.19.11-200.fc36.x86_64 GNU/Linux
+----
+Specification Name, Version and download URL:
+https://download.eclipse.org/microprofile/microprofile-4.1/microprofile-spec-4.1.pdf[MicroProfile 4.1]
+
+Public URL of TCK Results Summary:
+https://github.com/wildfly/certifications/blob/MP4.1/WildFly_26.1.3.Final/microprofile-4.1/microprofile-full-platform.adoc[WildFly 26.1.3.Final TCK results]
+
+=== Platform TCK Test Results
+
+- link:microprofile-4.1-jdk-1.8.0_332.adoc[Platform TCK Test Results JDK 1.8.0_332]
+- link:microprofile-4.1-jdk-11.0.15.adoc[Platform TCK Test Results JDK 11.0.15]
+- link:microprofile-4.1-jdk-17.0.4.adoc[Platform TCK Test Results JDK 17.0.4]
