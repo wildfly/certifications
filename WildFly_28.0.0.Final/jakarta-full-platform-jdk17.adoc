@@ -185,6 +185,10 @@ Test name: jdbc_ee_batchUpdate
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: jdbc_ee_callStmt
+[javatest.batch] Completed running 1592 tests.
+[javatest.batch] Number of Tests Passed      = 1592
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
 
 Test name: jdbc_ee_connection
 [javatest.batch] Completed running 36 tests.
@@ -199,6 +203,10 @@ Test name: jdbc_ee_dateTime
 [javatest.batch] Number of Tests with Errors = 0
 
 Test name: jdbc_ee_dbMeta
+[javatest.batch] Completed running 940 tests.
+[javatest.batch] Number of Tests Passed      = 940
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
 
 Test name: jdbc_ee_escapeSyntax
 [javatest.batch] Completed running 324 tests.
