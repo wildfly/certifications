@@ -573,7 +573,7 @@ SHA-256: `9da36d2d6e2eb8d413f886f15711820008419d210ce4c51af04f96e1ffd583b3`
 TCK result summary:
 ----
 [INFO] Running TestSuite
-[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 491.734 s - in TestSuite
+[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
 ----
 
 https://download.eclipse.org/jakartaee/concurrency/3.0/concurrency-tck-3.0.2.zip[Jakarta Concurrency 3.0.0 TCK]
@@ -583,7 +583,7 @@ SHA-256: `22728d729f620d6a85ae903e7d1184e0a7508a4328491b785f1b4f3d7215ca93`
 TCK result summary:
 ----
 [INFO] Running TestSuite
-[INFO] Tests run: 149, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 177.143 s - in TestSuite
+[INFO] Tests run: 149, Failures: 0, Errors: 0, Skipped: 0
 ----
 
 https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.5-dist.zip[Jakarta Contexts and Dependency Injection 4.0.5 TCK]
@@ -592,7 +592,7 @@ SHA-256: `56ce1046738f79d9bc19271bfb3fb57c667dc7b84122cfeff287f554b34b1377`
 
 TCK result summary:
 ----
-[INFO] Tests run: 1832, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,726.848 s - in TestSuite
+[INFO] Tests run: 1832, Failures: 0, Errors: 0, Skipped: 0
 ----
 
 https://download.eclipse.org/jakartaee/debugging/2.0/jakarta-debugging-tck-2.0.0.zip[Jakarta Debugging Support for Other Languages 2.0 TCK]
@@ -610,7 +610,7 @@ SHA-256: `23bce4317ca061c3de648566cdf65c74b57e1264d6891f366567955d6b834972`
 
 TCK result summary:
 ----
-[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2 s - in weld.SampleBootstrapTCK
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
 ----
 
 https://download.eclipse.org/jakartaee/faces/4.0/jakarta-faces-tck-4.0.1.zip[Jakarta Faces 4.0.1 TCK] 
@@ -632,7 +632,7 @@ https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[Jak
 
 SHA-256: `954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b`
 
-Includes already certified [Eclipse Yasson 3.0.1](https://github.com/eclipse-ee4j/yasson/releases/tag/3.0.1)
+Includes already certified [Eclipse Yasson 3.0.2](https://github.com/eclipse-ee4j/yasson/releases/tag/3.0.2)
 
 https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.0.zip[Jakarta JSON Processing 2.1.0 TCK] 
 
@@ -644,7 +644,7 @@ https://download.eclipse.org/jakartaee/mail/2.1/jakarta-mail-tck-2.1.0.zip[Jakar
 
 SHA-256: `6f02a92e0a5ef60260e65f95938cc566da2f93a3d269c3b321da0d787a3448a5`
 
-Includes already certified [Eclipse Angus Mail 1.0.0](https://github.com/eclipse-ee4j/angus-mail/releases/tag/1.0.0)
+Includes already certified [Eclipse Angus Mail 2.0.1](https://github.com/eclipse-ee4j/angus-mail/releases/tag/2.0.1)
 
 https://download.eclipse.org/jakartaee/restful-ws/3.1/jakarta-restful-ws-tck-3.1.0.zip[Jakarta RESTful Web Services 3.1.0 TCK]
 
