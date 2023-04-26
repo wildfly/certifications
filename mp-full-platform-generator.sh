@@ -28,7 +28,7 @@ parseLinks() {
   for file in $@
   do
     tee -a "$FILENAME" <<EOF
-- link:$(parseFileName $file)[Platform TCK Test Results JDK $(parseJDKVersionSimple $file)]
+- link:$(parseFileName $file)[Selected TCKs Test Results JDK $(parseJDKVersionSimple $file)]
 EOF
   done
 }
@@ -40,7 +40,7 @@ fi
 
 readonly MP_VERSION=${1}
 readonly WFLY_VERSION=${2}
-readonly FILE="$PWD/microprofile-${MP_VERSION}-full-certification.adoc"
+readonly FILE="$PWD/microprofile-${MP_VERSION}-selected-specifications-certification.adoc"
 
 shift 2
 
@@ -53,26 +53,32 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 
 [[introduction]]
 == Introduction
-As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for the release of https://github.com/eclipse/microprofile/releases/tag/${MP_VERSION}[MicroProfile ${MP_VERSION}].
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License],
+following is a summary of the TCK results for selected specifications from the release of
+https://github.com/eclipse/microprofile/releases/tag/${MP_VERSION}[MicroProfile ${MP_VERSION}]. This summary contains
+all specifications defined in https://github.com/eclipse/microprofile/releases/tag/${MP_VERSION}[MicroProfile
+${MP_VERSION}] except for MicroProfile Metrics which is not implemented by WildFly. WildFly does not claim to be a
+compatible implementation of https://github.com/eclipse/microprofile/releases/tag/${MP_VERSION}[MicroProfile
+${MP_VERSION}].
 
-=== WildFly Full Platform, Certification Summary
+=== WildFly, Certification Summary
 ----
 Date:  $(date)
 Product Name:  WildFly
 Product Version: WildFly ${WFLY_VERSION}
 URL to product download page: https://wildfly.org/downloads
 
-Product Description: An implementation of the Jakarta EE Full Platform, Web Profile, and MicroProfile Specifications
+Product Description: An implementation of the Jakarta EE Full Platform, Web Profile, Core Profile, and selected MicroProfile specifications
 Java SE provider and Version tested with:  OpenJDK $(parseJDKVersions $@)
 OS version: $(uname -sro)
 ----
-Specification Name, Version and download URL:
+Specification Name, Version and download URL (except MicroProfile Metrics):
 https://download.eclipse.org/microprofile/microprofile-${MP_VERSION}/microprofile-spec-${MP_VERSION}.pdf[MicroProfile ${MP_VERSION}]
 
 Public URL of TCK Results Summary:
-https://github.com/wildfly/certifications/blob/MP$MP_VERSION/WildFly_$WFLY_VERSION/microprofile-$MP_VERSION/microprofile-${MP_VERSION}-full-certification.adoc[WildFly $WFLY_VERSION TCK results]
+https://github.com/wildfly/certifications/blob/MP$MP_VERSION/WildFly_$WFLY_VERSION/microprofile-$MP_VERSION/microprofile-${MP_VERSION}-selected-specifications-certification.adoc[WildFly $WFLY_VERSION TCK results]
 
-=== Platform TCK Test Results
+=== TCK Test Results
 
 EOF
 
