@@ -1,0 +1,325 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+[[introduction]]
+== Introduction
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Web Profile 10.
+
+
+=== WildFly Preview Web Profile, Certification Summary
+----
+Date:  May 18, 2023
+Product Name, Version: WildFly 28.0.1.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE 10 Web Profile Specification
+Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM 18.9 (build 11.0.12+7-LTS, mixed mode)
+OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
+Database version:   Apache Derby Network Server 10.15.2.0
+Database JDBC Driver and version:  Apache Derby 10.15.2.0
+----
+Specification Name, Version and download URL:
+https://jakarta.ee/specifications/webprofile/10/[Jakarta EE Platform, Web Profile 10]
+
+TCK Version, digital SHA-256 fingerprint and download URL:
+https://download.eclipse.org/jakartaee/platform/10/jakarta-jakartaeetck-10.0.2.zip[10.0.2, eb087d7fc5de5e05cce5d209faf9106cb1300c791f00580d06c7fd743d43dae1  ]
+
+Public URL of TCK Results Summary: 
+https://github.com/wildfly/certifications/blob/EE10/WildFly_28.0.1.Final/jakarta-web-profile-jdk11.adoc#tck-results[WildFly 28.0.1.Final TCK results]
+
+Any Additional Specification Certification Requirements:
+----  
+* Jakarta Authentication
+* Jakarta Bean Validation
+* Jakarta Concurrency
+* Jakarta Contexts and Dependency Injection
+* Jakarta Debugging Support for Other Languages
+* Jakarta Dependency Injection
+* Jakarta Faces
+* Jakarta JSON Binding
+* Jakarta JSON Processing
+* Jakarta RESTFul Web Services
+* Jakarta Security
+* Jakarta XML Binding
+----
+
+=== Web Profile TCK Test results
+Test results:
+----
+Test name: connector
+[javatest.batch] Completed running 252 tests.
+[javatest.batch] Number of Tests Passed      = 252
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb30_lite
+[javatest.batch] Completed running 1868 tests.
+[javatest.batch] Number of Tests Passed      = 1868
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: ejb32_lite
+[javatest.batch] Completed running 456 tests.
+[javatest.batch] Number of Tests Passed      = 456
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: el
+[javatest.batch] Completed running 695 tests.
+[javatest.batch] Number of Tests Passed      = 695
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_batchUpdate
+[javatest.batch] Completed running 34 tests.
+[javatest.batch] Number of Tests Passed      = 34
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_callStmt
+[javatest.batch] Completed running 796 tests.
+[javatest.batch] Number of Tests Passed      = 796
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_connection
+[javatest.batch] Completed running 18 tests.
+[javatest.batch] Number of Tests Passed      = 18
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_dateTime
+[javatest.batch] Completed running 76 tests.
+[javatest.batch] Number of Tests Passed      = 76
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_dbMeta
+[javatest.batch] Completed running 470 tests.
+[javatest.batch] Number of Tests Passed      = 470
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_escapeSyntax
+[javatest.batch] Completed running 162 tests.
+[javatest.batch] Number of Tests Passed      = 162
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_exception
+[javatest.batch] Completed running 28 tests.
+[javatest.batch] Number of Tests Passed      = 28
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_prepStmt
+[javatest.batch] Completed running 542 tests.
+[javatest.batch] Number of Tests Passed      = 542
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_resultSet
+[javatest.batch] Completed running 228 tests.
+[javatest.batch] Number of Tests Passed      = 228
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_rsMeta
+[javatest.batch] Completed running 42 tests.
+[javatest.batch] Number of Tests Passed      = 42
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jdbc_ee_stmt
+[javatest.batch] Completed running 66 tests.
+[javatest.batch] Number of Tests Passed      = 66
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_core
+[javatest.batch] Completed running 1857 tests.
+[javatest.batch] Number of Tests Passed      = 1857
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jpa_ee
+[javatest.batch] Completed running 38 tests.
+[javatest.batch] Number of Tests Passed      = 38
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsonb
+[javatest.batch] Completed running 10 tests.
+[javatest.batch] Number of Tests Passed      = 10
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsonp
+[javatest.batch] Completed running 38 tests.
+[javatest.batch] Number of Tests Passed      = 38
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jsp
+[javatest.batch] Completed running 725 tests.
+[javatest.batch] Number of Tests Passed      = 725
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jstl
+[javatest.batch] Completed running 541 tests.
+[javatest.batch] Number of Tests Passed      = 541
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: jta
+[javatest.batch] Completed running 100 tests.
+[javatest.batch] Number of Tests Passed      = 100
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: servlet
+[javatest.batch] Completed running 1647 tests.
+[javatest.batch] Number of Tests Passed      = 1647
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: signaturetest_javaee
+[javatest.batch] Completed running 2 tests.
+[javatest.batch] Number of Tests Passed      = 2
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+
+Test name: websocket
+[javatest.batch] Completed running 748 tests.
+[javatest.batch] Number of Tests Passed      = 748
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+----
+
+=== Additional standalone TCK Test results
+
+https://download.eclipse.org/jakartaee/authentication/3.0/jakarta-authentication-tck-3.0.1.zip[Jakarta Authentication 3.0.1 TCK]
+
+SHA-256: `8b916f1b4aed828337bd88b34bb39b133f04611c2dfe71541c2ec5d2dd22cd54` 
+
+TCK result summary:
+----
+failures=0 errors=0 standaloneauthenticationTests=70
+old authenticationPassingCount = 61
+old authenticationFailCount = 0
+----
+
+https://download.eclipse.org/jakartaee/bean-validation/3.0/beanvalidation-tck-dist-3.0.1.zip[Jakarta Bean Validation 3.0.1 TCK]
+
+SHA-256: `9da36d2d6e2eb8d413f886f15711820008419d210ce4c51af04f96e1ffd583b3` 
+
+TCK result summary:
+----
+[INFO] Running TestSuite
+[INFO] Tests run: 1045, Failures: 0, Errors: 0, Skipped: 0
+----
+
+https://download.eclipse.org/jakartaee/concurrency/3.0/concurrency-tck-3.0.2.zip[Jakarta Concurrency 3.0.0 TCK]
+
+SHA-256: `22728d729f620d6a85ae903e7d1184e0a7508a4328491b785f1b4f3d7215ca93` 
+
+TCK result summary:
+----
+[INFO] Running TestSuite
+[INFO] Tests run: 148, Failures: 0, Errors: 0, Skipped: 0
+----
+
+https://download.eclipse.org/jakartaee/cdi/4.0/cdi-tck-4.0.5-dist.zip[Jakarta Contexts and Dependency Injection 4.0.5 TCK]
+
+SHA-256: `56ce1046738f79d9bc19271bfb3fb57c667dc7b84122cfeff287f554b34b1377` 
+
+TCK result summary:
+----
+[INFO] Tests run: 1832, Failures: 0, Errors: 0, Skipped: 0
+----
+
+https://download.eclipse.org/jakartaee/debugging/2.0/jakarta-debugging-tck-2.0.0.zip[Jakarta Debugging Support for Other Languages 2.0 TCK]
+
+SHA-256: `71999815418799837dc6f3d0dc40c3dcc4144cd90c7cdfd06aa69270483d78bc` 
+
+TCK result summary:
+----
+Tests run: 1, Failures: 0, Errors: 0
+----
+
+https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[Jakarta Dependency Injection 2.0.2 TCK]
+
+SHA-256: `23bce4317ca061c3de648566cdf65c74b57e1264d6891f366567955d6b834972` 
+
+TCK result summary:
+----
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+----
+
+https://download.eclipse.org/jakartaee/faces/4.0/jakarta-faces-tck-4.0.1.zip[Jakarta Faces 4.0.1 TCK]
+
+SHA-256: `117fdbf8aee14ee162cc913ae055621f7e067b0be4dd14c4591be76b90a0dde5`
+
+TCK result summary:
+----
+Tests run: 261, Failures: 0, Errors: 0
+----
+----
+[javatest.batch] Completed running 5400 tests.
+[javatest.batch] Number of Tests Passed      = 5400
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+----
+
+https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[Jakarta JSON Binding 3.0 TCK]
+
+SHA-256: `954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b` 
+
+Includes already certified [Eclipse Yasson 3.0.2](https://github.com/eclipse-ee4j/yasson/releases/tag/3.0.2)
+
+https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.0.zip[Jakarta JSON Processing 2.1.0 TCK]
+
+SHA-256: `6ee953382ff965627fe20dd7e3bfce6c968ed829d611cf4990988ab54bfe8b54`
+
+Includes already certified [Eclipse Parsson 1.1.1](https://github.com/eclipse-ee4j/parsson/releases/tag/1.1.1)
+
+https://download.eclipse.org/jakartaee/restful-ws/3.1/jakarta-restful-ws-tck-3.1.0.zip[Jakarta RESTful Web Services 3.1.0 TCK]
+
+SHA-256: `ea8cd6cc857af55f19468bbb09e8a30f41c60e8f7413a093e7007c3902a49070` 
+
+TCK result summary:
+----
+Tests run: 2796, Failures: 0, Errors: 0, Skipped: 59
+----
+
+https://download.eclipse.org/jakartaee/security/3.0/jakarta-security-tck-3.0.0.zip[Jakarta Security 3.0.0 TCK]
+
+SHA-256: `696776046dfeaed74266a5d1c4dac7fea5437b6f51743b7fe10962dde755ff8f`
+
+TCK result summary:
+----
+Completed running 115 tests.
+Number of Tests Failed      = 0
+Number of Tests with Errors = 0
+----
+----
+[javatest.batch] Completed running 84 tests.
+[javatest.batch] Number of Tests Passed      = 84
+[javatest.batch] Number of Tests Failed      = 0
+[javatest.batch] Number of Tests with Errors = 0
+----
+
+(Two tests were excluded due to the challenge at https://github.com/jakartaee/security/issues/270.)
+
+https://download.eclipse.org/jakartaee/xml-binding/4.0/jakarta-xml-binding-tck-4.0.0.zip[Jakarta XML Binding 4.0.0 TCK]
+
+SHA-256: `33fa6a39e6ac6b767316efc2f71fed3577c3d364dd1f532d410915c30a0b5b67` 
+
+TCK result summary:
+----
+Pass: 24,626  Fail: 0  Error: 0  Not-Run: 0
+----
