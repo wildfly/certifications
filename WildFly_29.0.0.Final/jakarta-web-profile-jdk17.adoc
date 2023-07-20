@@ -16,7 +16,7 @@ Product Name, Version: WildFly 29.0.0.Final
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 10 Web Profile Specification
-Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM (build 17+35-2724, mixed mode, sharing)
+Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM (Red_Hat-17.0.7.0.7-1.el7openjdkportable) (build 17.0.7+7-LTS, mixed mode, sharing)
 OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
 Database version:   Apache Derby Network Server 10.15.2.0
 Database JDBC Driver and version:  Apache Derby 10.15.2.0
