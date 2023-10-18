@@ -41,11 +41,11 @@ Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
 
 RESTful Web Services Summary:
 
-Tests run: 2654, Failures: 0, Errors: 0, Skipped: 59
+Tests run: 2654, Failures: 0, Errors: 0, Skipped: 130
 
 CDI Lite TCK Summary:
 
-Tests run: 725, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 718, Failures: 0, Errors: 0, Skipped: 0
 
 CDI Lang Model TCK Summary:
 
