@@ -1,0 +1,61 @@
+= Jakarta Core Profile 10.0.1 TCK Java SE 17 Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+
+=== Compatibility Certification Information
+----
+Date:  October 18, 2023
+Product Name, Version: WildFly 30.0.0.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE 10 Core Profile Specification
+Java SE provider and Version tested with:  OpenJDK 64-Bit Server VM (build 21+35-2513, mixed mode, sharing)
+OS version: Red Hat Enterprise Linux Server 7.4 (Maipo)
+----
+Specification Name, Version and download URL:
+https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE Core Profile, 10]
+
+TCK Version, digital SHA-256 fingerprint and download URL:
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/coreprofile/10.0/jakarta-core-profile-tck-10.0.1.zip[10.0.1, 0fa5ead035817dc8e408354d9a70053802383d503fe1413abb33491daba263f8 ]
+
+Public URL of TCK Results Summary:
+https://github.com/wildfly/certifications/blob/EE10/WildFly_30.0.0.Final/jakarta-core-jdk17.adoc#jakarta-core-profile-1000-tck-java-se-17-results[WildFly 30.0.0.Final TCK results]
+
+Jakarta Core Profile TCK Results:
+---- 
+
+JSON-P Summary:
+
+Tests run: 179, Failures: 0, Errors: 0, Skipped: 0 
+
+JSON-B Summary:
+
+Tests run: 295, Failures: 0, Errors: 0, Skipped: 5
+
+Dependency Injection Summary:
+
+Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+RESTful Web Services Summary:
+
+Tests run: 2654, Failures: 0, Errors: 0, Skipped: 59
+
+CDI Lite TCK Summary:
+
+Tests run: 718, Failures: 1, Errors: 0, Skipped: 0
+  TCK Challenge https://github.com/jakartaee/platform-tck/issues/1196 was accepted for the following error:
+     [ERROR] org.jboss.cdi.tck.tests.definition.bean.types.ManagedBeanTypesTest.testGenericHierarchyBeanTypes  Time elapsed: 0.196 s  <<< FAILURE!
+     java.lang.AssertionError: Set [class java.lang.Object, interface java.util.SequencedCollection<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, java.util.List<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, interface java.util.Collection<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, interface java.lang.Iterable<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, class org.jboss.cdi.tck.tests.definition.bean.types.Flock] (6) does not match array [class java.lang.Object, class org.jboss.cdi.tck.tests.definition.bean.types.Flock, java.util.List<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, java.util.Collection<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, java.lang.Iterable<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>] (5)
+
+
+CDI Lang Model TCK Summary:
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+Core Profile Summary
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
