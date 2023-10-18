@@ -45,11 +45,7 @@ Tests run: 2654, Failures: 0, Errors: 0, Skipped: 130
 
 CDI Lite TCK Summary:
 
-Tests run: 718, Failures: 1, Errors: 0, Skipped: 0
-  TCK Challenge https://github.com/jakartaee/platform-tck/issues/1196 was accepted for the following error:
-     [ERROR] org.jboss.cdi.tck.tests.definition.bean.types.ManagedBeanTypesTest.testGenericHierarchyBeanTypes  Time elapsed: 0.196 s  <<< FAILURE!
-     java.lang.AssertionError: Set [class java.lang.Object, interface java.util.SequencedCollection<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, java.util.List<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, interface java.util.Collection<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, interface java.lang.Iterable<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, class org.jboss.cdi.tck.tests.definition.bean.types.Flock] (6) does not match array [class java.lang.Object, class org.jboss.cdi.tck.tests.definition.bean.types.Flock, java.util.List<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, java.util.Collection<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>, java.lang.Iterable<org.jboss.cdi.tck.tests.definition.bean.types.Vulture<java.lang.Integer>>] (5)
-
+Tests run: 715, Failures: 0, Errors: 0, Skipped: 0
 
 CDI Lang Model TCK Summary:
 
