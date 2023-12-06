@@ -7,7 +7,7 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 
 === Compatibility Certification Information
 ----
-Date:  October 18, 2023
+Date:  December 5, 2023
 Product Name, Version: WildFly 30.0.0.Final
 URL to product download page: https://wildfly.org/downloads
 
