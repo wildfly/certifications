@@ -8,7 +8,7 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 === Compatibility Certification Information
 ----
 Date:  December 5, 2023
-Product Name, Version: WildFly 30.0.0.Final
+Product Name, Version: WildFly 30.0.1.Final
 URL to product download page: https://wildfly.org/downloads
 
 Product Description: An implementation of the Jakarta EE 10 Core Profile Specification
@@ -22,7 +22,7 @@ TCK Version, digital SHA-256 fingerprint and download URL:
 https://www.eclipse.org/downloads/download.php?file=/jakartaee/coreprofile/10.0/jakarta-core-profile-tck-10.0.1.zip[10.0.1, 0fa5ead035817dc8e408354d9a70053802383d503fe1413abb33491daba263f8 ]
 
 Public URL of TCK Results Summary:
-https://github.com/wildfly/certifications/blob/EE10/WildFly_30.0.0.Final/jakarta-core-jdk17.adoc#jakarta-core-profile-1000-tck-java-se-17-results[WildFly 30.0.0.Final TCK results]
+https://github.com/wildfly/certifications/blob/EE10/WildFly_30.0.1.Final/jakarta-core-jdk17.adoc#jakarta-core-profile-1000-tck-java-se-17-results[WildFly 30.0.1.Final TCK results]
 
 Jakarta Core Profile TCK Results:
 ---- 
