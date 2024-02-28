@@ -11,7 +11,7 @@ As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Tech
 
 === WildFly Web Profile, Certification Summary
 ----
-Date:  January 27, 2024
+Date:  February 27, 2024
 Product Name, Version: WildFly 31.0.1.Final
 URL to product download page: https://wildfly.org/downloads
 
