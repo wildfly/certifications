@@ -1,0 +1,58 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+
+=== Compatibility Certification Information
+----
+Date:  July 23, 2024
+Product Name, Version: WildFly 33.0.0.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE 10 Core Profile Specification
+Java SE provider and Version tested with: OpenJDK 64-Bit Server VM (Red_Hat-11.0.19.0.7-1) (build 11.0.19+7-LTS, mixed mode)
+OS version: Red Hat Enterprise Linux 9.3
+----
+Specification Name, Version and download URL:
+https://jakarta.ee/specifications/coreprofile/10/[Jakarta EE Core Profile, 10]
+
+TCK Version, digital SHA-256 fingerprint and download URL:
+https://download.eclipse.org/jakartaee/coreprofile/10.0/jakarta-core-profile-tck-10.0.3.zip[10.0.3, a531a6ffc1eedfced6383a519013d176060b8280189141dcd626c26aad8502ac ]
+
+Public URL of TCK Results Summary:
+https://github.com/wildfly/certifications/blob/EE10/WildFly_33.0.0.Final/jakarta-core-jdk11.adoc#tck-results[WildFly 33.0.0.Final TCK results]
+
+Jakarta Core Profile TCK Results:
+---- 
+
+JSON-P Summary:
+
+Tests run: 179, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+JSON-B Summary:
+
+Tests run: 295, Failures: 0, Errors: 0, Skipped: 5
+
+Dependency Injection Summary:
+
+Tests run: 50, Failures: 0, Errors: 0, Skipped: 0
+
+RESTful Web Services Summary:
+
+Tests run: 2654, Failures: 0, Errors: 0, Skipped: 130
+
+CDI Lite TCK Summary:
+
+Tests run: 715, Failures: 0, Errors: 0, Skipped: 0
+
+CDI Lang Model TCK Summary:
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+Core Profile Summary
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
