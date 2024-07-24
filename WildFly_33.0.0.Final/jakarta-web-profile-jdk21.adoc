@@ -311,6 +311,11 @@ SHA-256: `9ecad6406031369efa70ac429f94140b4e35a58f216599d296ce19f944e70254`
 
 TCK result summary:
 ----
+Completed running 115 tests.
+Number of Tests Failed      = 0
+Number of Tests with Errors = 0
+----
+----
 [javatest.batch] Completed running 84 tests.
 [javatest.batch] Number of Tests Passed      = 84
 [javatest.batch] Number of Tests Failed      = 0
