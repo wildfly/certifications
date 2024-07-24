@@ -556,6 +556,7 @@ SHA-256: `8b916f1b4aed828337bd88b34bb39b133f04611c2dfe71541c2ec5d2dd22cd54`
 
 TCK result summary:
 ----
+Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
 failures=0 errors=0 standaloneauthenticationTests=61
 old authenticationPassingCount = 61
 old authenticationFailCount = 0
