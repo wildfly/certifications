@@ -1,0 +1,38 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+[[introduction]]
+== Introduction
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License],
+following is a summary of the TCK results for selected specifications from the release of
+https://github.com/eclipse/microprofile/releases/tag/6.1[MicroProfile 6.1]. This summary contains
+all specifications defined in https://github.com/eclipse/microprofile/releases/tag/6.1[MicroProfile
+6.1] except for MicroProfile Metrics which is not implemented by WildFly. WildFly does not claim to be a
+compatible implementation of https://github.com/eclipse/microprofile/releases/tag/6.1[MicroProfile
+6.1].
+
+=== WildFly, Certification Summary
+----
+Date:  Fri Aug 23 12:52:09 PM CEST 2024
+Product Name:  WildFly
+Product Version: WildFly 33.0.1.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE Full Platform, Web Profile, Core Profile, and selected MicroProfile specifications
+Java SE provider and Version tested with:  OpenJDK 11.0.24 17.0.12 21.0.4 
+OS version: Linux 6.8.0-40-generic GNU/Linux
+----
+Specification Name, Version and download URL (except MicroProfile Metrics):
+https://download.eclipse.org/microprofile/microprofile-6.1/microprofile-spec-6.1.pdf[MicroProfile 6.1]
+
+Public URL of TCK Results Summary:
+https://github.com/wildfly/certifications/blob/MP6.1/WildFly_33.0.1.Final/microprofile-6.1/microprofile-6.1-selected-specifications-certification.adoc[WildFly 33.0.1.Final TCK results]
+
+=== TCK Test Results
+
+- link:microprofile-6.1-selected-specifications-jdk-11.0.24.adoc[Selected TCKs Test Results JDK 11.0.24]
+- link:microprofile-6.1-selected-specifications-jdk-17.0.12.adoc[Selected TCKs Test Results JDK 17.0.12]
+- link:microprofile-6.1-selected-specifications-jdk-21.0.4.adoc[Selected TCKs Test Results JDK 21.0.4]
