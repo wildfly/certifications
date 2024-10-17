@@ -29,7 +29,7 @@ Specification Name, Version and download URL (except MicroProfile Metrics):
 https://download.eclipse.org/microprofile/microprofile-6.1/microprofile-spec-6.1.pdf[MicroProfile 6.1]
 
 Public URL of TCK Results Summary:
-https://github.com/wildfly/certifications/blob/MP6.1/WildFly_32.0.2.Final/microprofile-6.1/microprofile-6.1-selected-specifications-certification.adoc[WildFly 32.0.2.Final TCK results]
+https://github.com/wildfly/certifications/blob/MP6.1/WildFly_33.0.2.Final/microprofile-6.1/microprofile-6.1-selected-specifications-certification.adoc[WildFly 33.0.2.Final TCK results]
 
 === TCK Test Results
 
