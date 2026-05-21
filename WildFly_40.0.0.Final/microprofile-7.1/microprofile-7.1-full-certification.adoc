@@ -31,4 +31,3 @@ https://github.com/wildfly/certifications/blob/MP7.1/WildFly_40.0.0.Final/microp
 
 - link:microprofile-7.1-jdk-17.0.18.adoc[Selected TCKs Test Results JDK 17.0.18]
 - link:microprofile-7.1-jdk-21.0.10.adoc[Selected TCKs Test Results JDK 21.0.10]
-- link:microprofile-7.1-jdk-25.0.2.adoc[Selected TCKs Test Results JDK 25.0.2]
