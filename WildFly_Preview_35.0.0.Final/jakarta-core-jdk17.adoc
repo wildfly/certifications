@@ -1,0 +1,111 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../images/
+:server-name: WildFly Preview
+:server-version: 35.0.0.Final
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+
+== Compatibility Certification Information
+
+Date: January 9, 2025
+
+* Product Name, Version: {server-name} {server-version}
++
+URL to product download page: https://wildfly.org/downloads
+
+* Specification Name, Version and download URL:
++
+https://jakarta.ee/specifications/coreprofile/11/[Jakarta EE Core Profile 11]
+
+* TCK Version, digital SHA-256 fingerprint and download URL:
++
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/coreprofile/11.0/jakarta-core-profile-tck-11.0.0.zip[Jakarta EE Core Profile TCK 11.0], SHA-256: `0357bfab7025972edb2bf50277b6b4206b499a2961bc94e783f34782cc4a9bda`
+
+* Public URL of TCK Results Summary:
++
+link:jakarta-core-jdk17.adoc[TCK Summary Results]
+
+* Any Additional Specification Certification Requirements:
++
+Jakarta Annotations TCK https://download.eclipse.org/jakartaee/annotations/3.0/jakarta-annotations-tck-3.0.0.zip[jakarta-annotations-tck-3.0.0.zip], SHA-256: `9421c6ca66274d32dfb408848f75a42d57f120599fe0d8403c5c5c1141d5ac4d`
++
+Jakarta CDI TCK https://download.eclipse.org/jakartaee/cdi/4.1/cdi-tck-4.1.0-dist.zip[cdi-tck-4.1.0-dist.zip], SHA-256: `446029ee1ce694d2a9ae8893d16be7afd7e1c0ed8705064b7095af174cf97ea0`
++
+Jakarta Dependency Injection TCK https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[jakarta.inject-tck-2.0.2-bin.zip], SHA-256: `23bce4317ca061c3de648566cdf65c74b57e1264d6891f366567955d6b834972`
++
+Jakarta JSON Binding https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[jakarta-jsonb-tck-3.0.0.zip], SHA-256-`954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b`  tck-setup/target/tcks/jakarta-jsonb-tck-3.0.0.zip
++
+Jakarta JSON Processing https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.1.zip[jakarta-jsonp-tck-2.1.1.zip], SHA-256: `949f203de84deffa8c7892b555918e42f1dd220ccb7b6800741ea58af62737c1`
++
+Jakarta RESTful Web Services https://download.eclipse.org/jakartaee/restful-ws/4.0/jakarta-restful-ws-tck-4.0.1.zip[jakarta-restful-ws-tck-4.0.1.zip], SHA-256: `b6290c1b5b3d2fdd9cc700a999243492a7e27b94a9b6af1974ff4dc5bfbf98f2`
+
+* Java runtime used to run the implementation:
++
+[source]
+----
+openjdk version "17.0.13" 2024-10-15
+OpenJDK Runtime Environment Temurin-17.0.13+11 (build 17.0.13+11)
+OpenJDK 64-Bit Server VM Temurin-17.0.13+11 (build 17.0.13+11, mixed mode, sharing)
+----
+
+* Summary of the information for the certification environment; OS:
++
+Ubuntu 24.04.1 LTS
+
+=== Jakarta Core Profile TCK Results:
+
+==== Jakarta Annotations TCK
+
+----
+Total: 1 - PASSED: 1 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta Contexts and Dependency Injection Lang Model TCK
+
+----
+Total: 1 - PASSED: 1 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta Contexts and Dependency Injection TCK
+
+----
+Total: 779 - PASSED: 779 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta EE Core Profile TCK
+
+----
+Total: 13 - PASSED: 13 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta Dependency Inject TCK
+
+----
+Total: 50 - PASSED: 50 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta JSON Binding Standalone TCK
+
+----
+Total: 295 - PASSED: 290 - FAILED: 0 - ERRORS: 0 - SKIPPED: 5
+----
+
+==== Jakarta JSON Processing Plugability TCK
+
+----
+Total: 18 - PASSED: 18 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta JSON Processing Standalone TCK
+
+----
+Total: 179 - PASSED: 179 - FAILED: 0 - ERRORS: 0 - SKIPPED: 0
+----
+
+==== Jakarta REST TCK
+
+----
+Total: 2662 - PASSED: 2534 - FAILED: 0 - ERRORS: 0 - SKIPPED: 128
+----
