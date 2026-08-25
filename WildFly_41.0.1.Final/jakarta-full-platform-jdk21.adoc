@@ -1,0 +1,665 @@
+= TCK Results
+:ext-relative: {outfilesuffix}
+:imagesdir: ../images/
+
+image:splash_wildflylogo_small.png[WildFly, align="center"]
+
+[[introduction]]
+== Introduction
+As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License], following is a summary of the TCK results for releases of Jakarta EE Platform 11.
+
+
+=== WildFly Full Platform, Certification Summary
+----
+Date:  August 25, 2026
+Product Name, Version: WildFly 41.0.1.Final
+URL to product download page: https://wildfly.org/downloads
+
+Product Description: An implementation of the Jakarta EE 11 Full Platform Specification
+Java SE provider and Version tested with: OpenJDK 64-Bit Server VM (Red_Hat-21.0.11.0.10-1) (build 21.0.11+10-LTS, mixed mode, sharing)
+OS version: Red Hat Enterprise Linux 9.3
+Database version: PostgreSQL 17.6
+Database version:   Apache Derby Network Server 10.15.2.0
+Database JDBC Driver and version:  Apache Derby 10.15.2.0
+----
+Specification Name, Version and download URL:
+https://jakarta.ee/specifications/platform/11[Jakarta EE Platform, 11]
+
+TCK Version, digital SHA-256 fingerprint and download URL:
+https://download.eclipse.org/jakartaee/platform/11/jakartaeetck-11.0.3.zip[11.0.3, 2d2ab66ea37fbc6b0958a8921c094e46e21f41dbf6397e6ea8a07757f6aa8b7d ]
+
+Public URL of TCK Results Summary:
+https://github.com/wildfly/certifications/blob/EE11/WildFly_41.0.1.Final/jakarta-full-platform-jdk21.adoc#tck-results[WildFly 41.0.1.Final TCK results]
+
+Any Additional Specification Certification Requirements:
+---- 
+https://download.eclipse.org/jakartaee/authorization/3.0/jakarta-authorization-tck-3.0.0.zip[Jakarta Authorization 3.0]
+https://download.eclipse.org/jakartaee/authentication/3.1/jakarta-authentication-tck-3.1.2.zip[Jakarta Authentication 3.1]
+https://download.eclipse.org/jakartaee/batch/2.1/jakarta.batch.official.tck-2.1.5.zip[Jakarta Batch 2.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/concurrency/3.1/concurrency-tck-3.1.1.zip[Jakarta Concurrency 3.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/cdi/4.1/cdi-tck-4.1.0-dist.zip[Jakarta Contexts and Dependency Injection 4.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/data/1.0/data-tck-1.0.1.zip[Jakarta Data 1.0]
+https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[Jakarta Dependency Injection 2.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/faces/4.1/jakarta-faces-tck-4.1.2.zip[Jakarta Faces 4.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[Jakarta JSON Binding 3.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.1.zip[Jakarta JSON Processing 2.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/pages/4.0/jakarta-pages-tck-4.0.0.zip[Jakarta Pages 4.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/mail/2.1/jakarta-mail-tck-2.1.2.zip[Jakarta Mail 2.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/restful-ws/4.0/jakarta-restful-ws-tck-4.0.1.zip[Jakarta RESTFul Web Services 4.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/security/4.0/jakarta-security-tck-4.0.0.zip[Jakarta Security 4.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/servlet/6.1/jakarta-servlet-tck-6.1.1.zip[Jakarta Servlet 6.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/bean-validation/3.1/validation-tck-dist-3.1.1.zip[Jakarta Validation 3.1]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/xml-binding/4.0/jakarta-xml-binding-tck-4.0.2.zip[Jakarta XML Binding 4.0]
+----
+
+=== Platform TCK Test results
+Test results:
+----
+Test name: activation-tck
+Number of Tests Passed = 93
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 1
+
+Test name: annotations-tck
+Number of Tests Passed = 1
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: appclient-platform-tck
+Number of Tests Passed = 27
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: assembly-platform-tck
+Number of Tests Passed = 8
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 4
+
+Test name: authentication
+Number of Tests Passed = 131
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: authorization
+Number of Tests Passed = 53
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: batch
+Number of Tests Passed = 373
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 18
+
+Test name: cdi
+Number of Tests Passed = 1904
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: cdi-langmodel-tck
+Number of Tests Passed = 1
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: concurrency-tck
+Number of Tests Passed = 268
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 27
+
+Test name: connector-platform-tck
+Number of Tests Passed = 459
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: data
+Number of Tests Passed = 99
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: debugging-tck
+Number of Tests Passed = 1
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb30/assembly
+Number of Tests Passed = 46
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb30/bb
+Number of Tests Passed = 1081
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb30/lite
+Number of Tests Passed = 1760
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb30/misc
+Number of Tests Passed = 98
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb30/timer
+Number of Tests Passed = 178
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb30/tx
+Number of Tests Passed = 84
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: ejb32
+Number of Tests Passed = 704
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: el-platform-tck
+Number of Tests Passed = 717
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: faces-new
+Number of Tests Passed = 294
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 17
+
+Test name: faces-old
+Number of Tests Passed = 5390
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: inject-tck
+Number of Tests Passed = 50
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: integration-platform-tck
+Number of Tests Passed = 15
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jakarta-xml-binding
+Number of Tests Passed = 24624
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: javaee-platform-tck
+Number of Tests Passed = 24
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/batchUpdate
+Number of Tests Passed = 68
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/callStmt
+Number of Tests Passed = 1592
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/connection
+Number of Tests Passed = 36
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/dateTime
+Number of Tests Passed = 152
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/dbMeta
+Number of Tests Passed = 940
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/escapeSyntax
+Number of Tests Passed = 324
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/exception
+Number of Tests Passed = 56
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/prepStmt
+Number of Tests Passed = 1084
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/resultSet
+Number of Tests Passed = 456
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/rsMeta
+Number of Tests Passed = 84
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jdbc/ee/stmt
+Number of Tests Passed = 132
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jms/core
+Number of Tests Passed = 2379
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jms/core20
+Number of Tests Passed = 852
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jms/ee
+Number of Tests Passed = 207
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jms/ee20
+Number of Tests Passed = 51
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jsonb-platform-tck
+Number of Tests Passed = 18
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jsonb-tck
+Number of Tests Passed = 290
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 5
+
+Test name: jsonp-platform-tck
+Number of Tests Passed = 76
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: jsonp-tck
+Number of Tests Passed = 197
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: mail-platform-tck
+Number of Tests Passed = 112
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: mail-tck
+Number of Tests Passed = 322
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 6
+
+Test name: pages-platform-tck
+Number of Tests Passed = 28
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: pages-tck
+Number of Tests Passed = 682
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/EntityGraph
+Number of Tests Passed = 78
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/StoredProcedureQuery
+Number of Tests Passed = 238
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/annotations
+Number of Tests Passed = 976
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 8
+
+Test name: persistence/core/basic
+Number of Tests Passed = 12
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/cache
+Number of Tests Passed = 20
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/callback
+Number of Tests Passed = 396
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/CriteriaBuilder
+Number of Tests Passed = 930
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/CriteriaDelete
+Number of Tests Passed = 42
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/CriteriaQuery
+Number of Tests Passed = 228
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/CriteriaUpdate
+Number of Tests Passed = 60
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/From
+Number of Tests Passed = 174
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/Join
+Number of Tests Passed = 210
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/Root
+Number of Tests Passed = 156
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/metamodelquery
+Number of Tests Passed = 906
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/misc
+Number of Tests Passed = 204
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/parameter
+Number of Tests Passed = 48
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/criteriaapi/strquery
+Number of Tests Passed = 768
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/derivedid
+Number of Tests Passed = 72
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/entityManager
+Number of Tests Passed = 200
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/entityManager2
+Number of Tests Passed = 132
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/entityManagerFactory
+Number of Tests Passed = 42
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/entityManagerFactoryCloseExceptions
+Number of Tests Passed = 6
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/entitytest
+Number of Tests Passed = 894
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 10
+
+Test name: persistence/core/enums
+Number of Tests Passed = 317
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/exceptions
+Number of Tests Passed = 34
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/inheritance
+Number of Tests Passed = 60
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/lock
+Number of Tests Passed = 36
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/metamodelapi
+Number of Tests Passed = 1554
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 6
+
+Test name: persistence/core/nestedembedding
+Number of Tests Passed = 18
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/override
+Number of Tests Passed = 156
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/persistenceUnitUtil
+Number of Tests Passed = 18
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/persistenceUtil
+Number of Tests Passed = 6
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/query
+Number of Tests Passed = 1242
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/relationship
+Number of Tests Passed = 198
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/types
+Number of Tests Passed = 306
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/core/versioning
+Number of Tests Passed = 6
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/ee
+Number of Tests Passed = 162
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 18
+
+Test name: persistence/entitytest
+Number of Tests Passed = 96
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/jpa
+Number of Tests Passed = 4
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: persistence/jpa22
+Number of Tests Passed = 94
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: rest-platform-tck
+Number of Tests Passed = 129
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: rest-tck
+Number of Tests Passed = 2668
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 128
+
+Test name: security
+Number of Tests Passed = 131
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: servlet-tck
+Number of Tests Passed = 1715
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 1
+
+Test name: signature-tck
+Number of Tests Passed = 4
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: tags-tck
+Number of Tests Passed = 541
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: transactions-tck
+Number of Tests Passed = 195
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: validation-tck
+Number of Tests Passed = 1049
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 1
+
+Test name: websocket-platform-tck
+Number of Tests Passed = 12
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: websocket-tck
+Number of Tests Passed = 737
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+Test name: xa-platform-tck
+Number of Tests Passed = 66
+Number of Tests Failed = 0
+Number of Tests with Errors = 0
+Number of Tests Skipped = 0
+
+----
+
