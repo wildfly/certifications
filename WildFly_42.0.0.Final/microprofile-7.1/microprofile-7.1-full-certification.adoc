@@ -7,8 +7,14 @@ image:splash_wildflylogo_small.png[WildFly, align="center"]
 [[introduction]]
 == Introduction
 As required by the https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License],
-following is a summary of the TCK results for the release of
+following is a summary of the TCK results for selected specifications from the release of
 https://github.com/eclipse/microprofile/releases/tag/7.1[MicroProfile 7.1].
+This summary contains
+all specifications defined in https://github.com/eclipse/microprofile/releases/tag/7.1[MicroProfile
+7.1] except for https://microprofile.io/specifications/config/3-1/[MicroProfile Config 3.1].
+WildFly does not claim to be a
+compatible implementation of https://microprofile.io/specifications/config/3-1/[MicroProfile Config 3.1] or of link:++https://github.com/eclipse/microprofile/releases/tag/7.1[MicroProfile
+7.1].
 
 === WildFly Certification Summary
 ----
