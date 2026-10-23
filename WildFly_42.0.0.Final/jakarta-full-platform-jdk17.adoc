@@ -47,7 +47,7 @@ https://www.eclipse.org/downloads/download.php?file=/jakartaee/pages/4.0/jakarta
 https://www.eclipse.org/downloads/download.php?file=/jakartaee/mail/2.1/jakarta-mail-tck-2.1.2.zip[Jakarta Mail 2.1]
 https://www.eclipse.org/downloads/download.php?file=/jakartaee/restful-ws/4.0/jakarta-restful-ws-tck-4.0.1.zip[Jakarta RESTFul Web Services 4.0]
 https://www.eclipse.org/downloads/download.php?file=/jakartaee/security/4.0/jakarta-security-tck-4.0.0.zip[Jakarta Security 4.0]
-https://www.eclipse.org/downloads/download.php?file=/jakartaee/servlet/6.1/jakarta-servlet-tck-6.1.1.zip[Jakarta Servlet 6.0]
+https://www.eclipse.org/downloads/download.php?file=/jakartaee/servlet/6.1/jakarta-servlet-tck-6.1.1.zip[Jakarta Servlet 6.1]
 https://www.eclipse.org/downloads/download.php?file=/jakartaee/bean-validation/3.1/validation-tck-dist-3.1.1.zip[Jakarta Validation 3.1]
 https://www.eclipse.org/downloads/download.php?file=/jakartaee/xml-binding/4.0/jakarta-xml-binding-tck-4.0.2.zip[Jakarta XML Binding 4.0]
 ----

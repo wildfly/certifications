@@ -35,7 +35,7 @@ Jakarta CDI TCK https://download.eclipse.org/jakartaee/cdi/4.1/cdi-tck-4.1.0-dis
 +
 Jakarta Dependency Injection TCK https://download.eclipse.org/jakartaee/dependency-injection/2.0/jakarta.inject-tck-2.0.2-bin.zip[jakarta.inject-tck-2.0.2-bin.zip], SHA-256: `23bce4317ca061c3de648566cdf65c74b57e1264d6891f366567955d6b834972`
 +
-Jakarta JSON Binding https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[jakarta-jsonb-tck-3.0.0.zip], SHA-256-`954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b`  tck-setup/target/tcks/jakarta-jsonb-tck-3.0.0.zip
+Jakarta JSON Binding https://download.eclipse.org/jakartaee/jsonb/3.0/jakarta-jsonb-tck-3.0.0.zip[jakarta-jsonb-tck-3.0.0.zip], SHA-256: `954fd9a3a67059ddeabe5f51462a6a3b542c94fc798094dd8c312a6a28ef2d0b`
 +
 Jakarta JSON Processing https://download.eclipse.org/jakartaee/jsonp/2.1/jakarta-jsonp-tck-2.1.1.zip[jakarta-jsonp-tck-2.1.1.zip], SHA-256: `949f203de84deffa8c7892b555918e42f1dd220ccb7b6800741ea58af62737c1`
 +
